@@ -13,7 +13,7 @@ Usa a API JSON que o próprio site usa (`/api/v1/event-publishers` e `/api/v1/ev
 
 ## Como roda
 
-GitHub Actions (`.github/workflows/monitor.yml`), às 7:37, 10:37, 13:37, 16:37 e 19:37 (Brasília). O GitHub às vezes atrasa alguns minutos. Pra mudar, edite o `cron` (em UTC). Pra rodar na hora: aba **Actions** → "Monitor Festa do Livro USP" → **Run workflow**.
+GitHub Actions (`.github/workflows/monitor.yml`), às 7:37, 10:37, 13:37, 16:37 e 19:37 (Brasília). O `schedule` do próprio GitHub não disparava, então o horário vem do **Cron Trigger do Worker do biblionema** (`frontend/wrangler.jsonc` → `triggers.crons`, em UTC), que chama o `workflow_dispatch` pela API com o segredo `GH_DISPATCH_TOKEN` do Worker (token fine-grained, Actions: read and write, só neste repo). Pra mudar o horário, edite o cron lá. Pra rodar na hora: aba **Actions** → "Monitor Festa do Livro USP" → **Run workflow**.
 
 O monitor roda até **29/11/2026** (`ULTIMO_DIA` no workflow). Na primeira rodada depois disso ele manda um aviso no Telegram e se desliga sozinho. Pra religar: aba **Actions** → **Enable workflow** (e ajuste `ULTIMO_DIA`).
 
