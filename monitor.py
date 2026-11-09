@@ -26,6 +26,10 @@ COLUNAS_CSV = [("titulo", "name"), ("autor", "authors"),
                ("isbn", "isbn"), ("assunto", "subject"), ("preco", "price"),
                ("preco_feira", "price_discount"), ("link", "link")]
 SITE = f"https://festadolivro.edusp.com.br/{festa.FLAG}/editoras"
+# no Actions o GitHub preenche GITHUB_REPOSITORY; o padrão vale pra rodar local
+REPO = os.environ.get("GITHUB_REPOSITORY") or "henriquecapanema/sentinela-festa-livro-usp"
+LISTA_URL = f"https://github.com/{REPO}/blob/main/editoras.md"
+RODAPE = f"📋 Lista atualizada (editoras, PDFs e livros): {LISTA_URL}\n🌐 Site da festa: {SITE}"
 BRT = timezone(timedelta(hours=-3))
 
 
@@ -82,7 +86,9 @@ def montar_mensagem(novas, cat_novo, cat_atual, busca, total, total_antes):
         linhas.append("")
     if total_antes is not None and total != total_antes:
         linhas.append(f"📚 Total de livros cadastrados no site: {total_antes} → {total}")
-    linhas.append(SITE)
+    if linhas and linhas[-1]:
+        linhas.append("")
+    linhas.append(RODAPE)
     return "\n".join(linhas).strip()
 
 
@@ -175,7 +181,7 @@ def main():
     if primeira_vez:
         com = sum(1 for e in eds if e.get("price_list"))
         notificar("Festa do Livro USP: monitor ligado",
-                  f"Já tem {len(eds)} editoras ({com} com catálogo) e {total} livros cadastrados no site.\n{SITE}")
+                  f"Já tem {len(eds)} editoras ({com} com catálogo) e {total} livros cadastrados no site.\n\n{RODAPE}")
     elif novas or cat_novo or cat_atual or busca:
         n = len(novas) + len(cat_novo) + sum(1 for _, n_antes, _ in busca if not n_antes)
         if n:
