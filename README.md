@@ -8,6 +8,7 @@ Usa a API JSON que o próprio site usa (`/api/v1/event-publishers` e `/api/v1/ev
 
 - `editoras.md` — lista atual de editoras, link do PDF de cada catálogo e quantos livros de cada uma já estão na busca do site.
 - `livros/<editora>.csv` — os livros de cada editora que estão na busca do site (título, autor, ISBN, assunto, preço e preço na feira). Só é baixado de novo quando o total de livros muda. Nem toda editora com catálogo em PDF já aparece na busca; os arquivos vão surgindo conforme a Edusp inclui as editoras.
+- `livros-pdf/<editora>.csv` — extração única (feita à mão, fora do workflow) do catálogo em PDF de editoras que interessam mas ainda não estavam na busca. Hoje: Autonomia Literária (155 livros, PDF de 09/11/2026). Não é atualizado sozinho; os ISBNs repetidos e os códigos `2675003102`–`2675003107` vêm assim no próprio PDF da editora.
 - `estado.json` — o que o monitor viu na última rodada, pra comparar com a próxima.
 
 ## Como roda
