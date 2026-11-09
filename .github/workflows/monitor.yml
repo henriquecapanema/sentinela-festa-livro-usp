@@ -8,19 +8,47 @@ on:
 
 permissions:
   contents: write         # pra salvar estado.json / editoras.md de volta no repo
+  actions: write          # pra se desligar sozinho depois do último dia
+
+env:
+  ULTIMO_DIA: "2026-11-29"   # último dia em que o monitor roda (horário de Brasília)
 
 concurrency: monitor
 
 jobs:
   checar:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 45   # baixar a lista inteira de livros fica lento quando tiver dezenas de milhares
     steps:
+      - name: Checar se ainda está no período
+        id: periodo
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          hoje=$(TZ=America/Sao_Paulo date +%F)
+          if [[ "$hoje" > "$ULTIMO_DIA" ]]; then
+            echo "Hoje é $hoje, depois de $ULTIMO_DIA: desligando o monitor."
+            echo "ativo=false" >> "$GITHUB_OUTPUT"
+            if [[ -n "$TELEGRAM_TOKEN" && -n "$TELEGRAM_CHAT_ID" ]]; then
+              curl -sS -X POST "https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage" \
+                -d chat_id="$TELEGRAM_CHAT_ID" \
+                --data-urlencode "text=🛑 Festa do Livro USP: monitor desligado (último dia era $(date -d "$ULTIMO_DIA" +%d/%m)). Pra religar: aba Actions → Enable workflow." \
+                -o /dev/null
+            fi
+            gh workflow disable "${{ github.workflow }}" --repo "${{ github.repository }}"
+          else
+            echo "ativo=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/checkout@v4
+        if: steps.periodo.outputs.ativo == 'true'
       - uses: actions/setup-python@v5
+        if: steps.periodo.outputs.ativo == 'true'
         with:
           python-version: "3.12"
       - name: Checar editoras
+        if: steps.periodo.outputs.ativo == 'true'
         env:
           FESTA_FLAG: 28-festa-do-livro-da-usp
           NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
@@ -28,6 +56,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python monitor.py
       - name: Salvar estado
+        if: steps.periodo.outputs.ativo == 'true'
         run: |
           git config user.name "festa-bot"
           git config user.email "festa-bot@users.noreply.github.com"
