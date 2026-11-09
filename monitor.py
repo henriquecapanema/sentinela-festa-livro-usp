@@ -10,7 +10,9 @@ import csv
 import json
 import os
 import pathlib
+import re
 import sys
+import unicodedata
 import urllib.request
 from datetime import datetime, timezone, timedelta
 
@@ -19,8 +21,8 @@ import festa
 AQUI = pathlib.Path(__file__).parent
 ESTADO = AQUI / "estado.json"
 LISTA_MD = AQUI / "editoras.md"
-LIVROS_CSV = AQUI / "livros.csv"
-COLUNAS_CSV = [("editora", "publisher"), ("titulo", "name"), ("autor", "authors"),
+LIVROS_DIR = AQUI / "livros"   # um CSV por editora: livros/<slug>.csv
+COLUNAS_CSV = [("titulo", "name"), ("autor", "authors"),
                ("isbn", "isbn"), ("assunto", "subject"), ("preco", "price"),
                ("preco_feira", "price_discount"), ("link", "link")]
 SITE = f"https://festadolivro.edusp.com.br/{festa.FLAG}/editoras"
@@ -90,34 +92,54 @@ def escrever_lista(editoras, total, agora):
     linhas = [f"# Editoras — {festa.FLAG}", "",
               f"Atualizado em {agora:%d/%m/%Y %H:%M} (horário de Brasília). "
               f"{len(editoras)} editoras, {com} com catálogo, {total} livros na busca.", "",
-              "| Editora | Catálogo |", "|---|---|"]
+              "| Editora | Catálogo | Livros na busca |", "|---|---|---|"]
+    qtd = livros_por_arquivo()
     for e in sorted(editoras, key=lambda e: e["name"].lower()):
         pdf = e.get("price_list")
-        linhas.append(f"| {e['name']} | {'[PDF](' + pdf + ')' if pdf else '—'} |")
+        n = qtd.get(e["url"])
+        livros = f"[{n}](livros/{e['url']}.csv)" if n else "—"
+        linhas.append(f"| {e['name']} | {'[PDF](' + pdf + ')' if pdf else '—'} | {livros} |")
     LISTA_MD.write_text("\n".join(linhas) + "\n", encoding="utf-8")
 
 
-def livros_no_csv():
-    if not LIVROS_CSV.exists():
-        return None
-    with LIVROS_CSV.open(encoding="utf-8", newline="") as f:
-        return sum(1 for _ in csv.reader(f)) - 1  # menos o cabeçalho
+def slugify(nome):
+    s = unicodedata.normalize("NFKD", nome).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-") or "sem-editora"
 
 
-def salvar_livros(total):
-    """Baixa a busca inteira da API e grava livros.csv. Só roda quando o total
-    de livros mudou (ou o CSV não existe), pra não martelar a API 5x por dia."""
-    if livros_no_csv() == total:
+def livros_por_arquivo():
+    """{slug: nº de livros} lendo os CSVs que já estão em livros/."""
+    out = {}
+    for p in sorted(LIVROS_DIR.glob("*.csv")):
+        with p.open(encoding="utf-8", newline="") as f:
+            out[p.stem] = sum(1 for _ in csv.reader(f)) - 1  # menos o cabeçalho
+    return out
+
+
+def salvar_livros(editoras, total):
+    """Baixa a busca inteira da API e grava um CSV por editora em livros/.
+    Só baixa quando o total de livros mudou, pra não martelar a API 5x por dia."""
+    if sum(livros_por_arquivo().values()) == total:
         return
-    livros = festa.buscar_livros(max_paginas=10_000)
-    livros.sort(key=lambda b: ((b.get("publisher") or "").lower(), (b.get("name") or "").lower(),
-                               b.get("isbn") or ""))
-    with LIVROS_CSV.open("w", encoding="utf-8", newline="") as f:
-        w = csv.writer(f)
-        w.writerow([col for col, _ in COLUNAS_CSV])
-        for b in livros:
-            w.writerow([b.get(campo) or "" for _, campo in COLUNAS_CSV])
-    print(f"livros.csv: {len(livros)} livros salvos.")
+    slug_de = {e["name"].strip().lower(): e["url"] for e in editoras}
+    grupos = {}
+    for b in festa.buscar_livros(max_paginas=10_000):
+        nome = (b.get("publisher") or "").strip()
+        slug = slug_de.get(nome.lower()) or slugify(nome)
+        grupos.setdefault(slug, []).append(b)
+
+    LIVROS_DIR.mkdir(exist_ok=True)
+    for p in LIVROS_DIR.glob("*.csv"):
+        if p.stem not in grupos:
+            p.unlink()  # editora que sumiu da busca
+    for slug, livros in grupos.items():
+        livros.sort(key=lambda b: ((b.get("name") or "").lower(), b.get("isbn") or ""))
+        with (LIVROS_DIR / f"{slug}.csv").open("w", encoding="utf-8", newline="") as f:
+            w = csv.writer(f)
+            w.writerow([col for col, _ in COLUNAS_CSV])
+            for b in livros:
+                w.writerow([b.get(campo) or "" for _, campo in COLUNAS_CSV])
+    print(f"livros/: {sum(map(len, grupos.values()))} livros em {len(grupos)} arquivos.")
 
 
 def main():
@@ -150,8 +172,8 @@ def main():
     }
     ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=1, sort_keys=True),
                       encoding="utf-8")
+    salvar_livros(eds, total)
     escrever_lista(eds, total, agora)
-    salvar_livros(total)
 
 
 if __name__ == "__main__":

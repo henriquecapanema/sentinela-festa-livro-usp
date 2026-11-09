@@ -1,8 +1,20 @@
-# festa-usp
+# sentinela-festa-livro-usp
 
-Monitor da Festa do Livro da USP (28ª edição): checa 5x por dia se apareceu editora nova ou catálogo novo e manda notificação no celular.
+Monitor da Festa do Livro da USP (28ª edição): checa 5x por dia se apareceu editora nova ou catálogo novo e avisa pelo bot do Telegram **@festausp2026bot**.
 
 Usa a API JSON que o próprio site usa (`/api/v1/event-publishers` e `/api/v1/event-books`). Só biblioteca padrão do Python, nada pra instalar.
+
+## O que fica no repositório
+
+- `editoras.md` — lista atual de editoras, link do PDF de cada catálogo e quantos livros de cada uma já estão na busca do site.
+- `livros/<editora>.csv` — os livros de cada editora que estão na busca do site (título, autor, ISBN, assunto, preço e preço na feira). Só é baixado de novo quando o total de livros muda. Nem toda editora com catálogo em PDF já aparece na busca; os arquivos vão surgindo conforme a Edusp inclui as editoras.
+- `estado.json` — o que o monitor viu na última rodada, pra comparar com a próxima.
+
+## Como roda
+
+GitHub Actions (`.github/workflows/monitor.yml`), às 7:37, 10:37, 13:37, 16:37 e 19:37 (Brasília). O GitHub às vezes atrasa alguns minutos. Pra mudar, edite o `cron` (em UTC). Pra rodar na hora: aba **Actions** → "Monitor Festa do Livro USP" → **Run workflow**.
+
+Os avisos vão pro Telegram pelo bot **@festausp2026bot**, configurado com os secrets `TELEGRAM_TOKEN` e `TELEGRAM_CHAT_ID`. Só chega mensagem quando aparece editora nova ou catálogo novo ou atualizado.
 
 ## Rodar local
 
@@ -10,16 +22,6 @@ Usa a API JSON que o próprio site usa (`/api/v1/event-publishers` e `/api/v1/ev
 python monitor.py
 ```
 
-A primeira execução salva o estado (`estado.json`) e avisa quantas editoras já existem; as seguintes só avisam quando muda algo. `editoras.md` fica sempre com a lista atual + links dos PDFs, e `livros.csv` com todos os livros da busca do site (editora, título, autor, ISBN, assunto, preço e preço na feira). O CSV só é baixado de novo quando o total de livros muda.
-
-## Rodar sozinho (GitHub Actions, grátis)
-
-1. Crie um repositório no GitHub e suba esta pasta (incluindo `.github/`).
-2. Escolha como receber os avisos e adicione em **Settings → Secrets and variables → Actions**:
-   - **ntfy** (mais fácil): invente um nome difícil de adivinhar, ex. `festa-usp-28-k9x2`, salve como `NTFY_TOPIC`, instale o app **ntfy** e assine esse tópico. Pra avisar os amigos ansiosos, é só passar o nome do tópico.
-   - **Telegram**: crie um bot com o @BotFather → `TELEGRAM_TOKEN`; o id do chat/grupo → `TELEGRAM_CHAT_ID`.
-3. Aba **Actions** → "Monitor Festa do Livro USP" → **Run workflow** pra testar.
-
-Horários: 7:37, 10:37, 13:37, 16:37 e 19:37 (Brasília). O GitHub às vezes atrasa alguns minutos. Pra mudar, edite o `cron` em `.github/workflows/monitor.yml` (em UTC).
+Sem as variáveis do Telegram, só imprime no terminal.
 
 Pra próxima edição: troque `FESTA_FLAG` no workflow pra `29-festa-do-livro-da-usp`.
