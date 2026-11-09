@@ -75,12 +75,13 @@ def montar_mensagem(novas, cat_novo, cat_atual, busca, total, total_antes):
     bloco(f"📄 {len(cat_novo)} catálogo(s) publicado(s):", cat_novo)
     bloco(f"🔄 {len(cat_atual)} catálogo(s) atualizado(s):", cat_atual)
     if busca:
-        linhas.append("🔎 Na busca agora:")
+        linhas.append("📖 Livros cadastrados no site (pesquisáveis por título/autor):")
         for nome, n_antes, n in busca:
-            linhas.append(f"• {nome}: {n} livros" if not n_antes else f"• {nome}: {n_antes} → {n} livros")
+            linhas.append(f"• {nome}: {n} livros (primeira vez no site)" if not n_antes
+                          else f"• {nome}: {n_antes} → {n} livros")
         linhas.append("")
     if total_antes is not None and total != total_antes:
-        linhas.append(f"📚 Livros na busca: {total_antes} → {total}")
+        linhas.append(f"📚 Total de livros cadastrados no site: {total_antes} → {total}")
     linhas.append(SITE)
     return "\n".join(linhas).strip()
 
@@ -107,8 +108,8 @@ def escrever_lista(editoras, total, agora):
     com = sum(1 for e in editoras if e.get("price_list"))
     linhas = [f"# Editoras — {festa.FLAG}", "",
               f"Atualizado em {agora:%d/%m/%Y %H:%M} (horário de Brasília). "
-              f"{len(editoras)} editoras, {com} com catálogo, {total} livros na busca.", "",
-              "| Editora | Catálogo | Livros na busca |", "|---|---|---|"]
+              f"{len(editoras)} editoras, {com} com catálogo, {total} livros cadastrados no site.", "",
+              "| Editora | Catálogo | Livros cadastrados no site |", "|---|---|---|"]
     qtd = livros_por_arquivo()
     for e in sorted(editoras, key=lambda e: e["name"].lower()):
         pdf = e.get("price_list")
@@ -174,7 +175,7 @@ def main():
     if primeira_vez:
         com = sum(1 for e in eds if e.get("price_list"))
         notificar("Festa do Livro USP: monitor ligado",
-                  f"Já tem {len(eds)} editoras ({com} com catálogo) e {total} livros na busca.\n{SITE}")
+                  f"Já tem {len(eds)} editoras ({com} com catálogo) e {total} livros cadastrados no site.\n{SITE}")
     elif novas or cat_novo or cat_atual or busca:
         n = len(novas) + len(cat_novo) + sum(1 for _, n_antes, _ in busca if not n_antes)
         if n:
@@ -182,7 +183,7 @@ def main():
         elif cat_atual:
             titulo = "Festa do Livro USP: catálogo atualizado"
         else:
-            titulo = "Festa do Livro USP: busca atualizada"
+            titulo = "Festa do Livro USP: livros novos no site"
         notificar(titulo, montar_mensagem(novas, cat_novo, cat_atual, busca, total,
                                           (antes or {}).get("total_livros")))
     else:
