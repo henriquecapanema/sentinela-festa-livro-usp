@@ -1,8 +1,8 @@
 # Editoras — 28-festa-do-livro-da-usp
 
-Atualizado em 09/11/2026 00:41 (horário de Brasília). 15 editoras, 15 com catálogo, 1387 livros na busca.
+Atualizado em 09/11/2026 01:04 (horário de Brasília). 15 editoras, 15 com catálogo, 1387 livros cadastrados no site.
 
-| Editora | Catálogo | Livros na busca |
+| Editora | Catálogo | Livros cadastrados no site |
 |---|---|---|
 | Autonomia Literária | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-484/publisher-price-list/0bea06d71d67e21b60d6f44514e5ecea65a484c4_lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe-atendimento-autonomia.pdf) | — |
 | DBA Literatura | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-481/publisher-price-list/399e7e1d532d22158749523f673a30616a2bf2bb_dba-literatura-feira-da-usp-2026-tabela-pro-site-usp-dba-editora.pdf) | — |
