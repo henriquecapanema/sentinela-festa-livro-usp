@@ -1,6 +1,6 @@
 # Editoras — 28-festa-do-livro-da-usp
 
-Atualizado em 09/11/2026 00:27 (horário de Brasília). 15 editoras, 15 com catálogo, 1387 livros na busca.
+Atualizado em 09/11/2026 00:28 (horário de Brasília). 15 editoras, 15 com catálogo, 1387 livros na busca.
 
 | Editora | Catálogo | Livros na busca |
 |---|---|---|
