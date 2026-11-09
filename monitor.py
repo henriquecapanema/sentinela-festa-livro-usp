@@ -6,6 +6,7 @@ Notificações (configure por variável de ambiente, todas opcionais):
   TELEGRAM_TOKEN + TELEGRAM_CHAT_ID -> mensagem num chat/grupo/canal do Telegram
 Sem nenhuma configurada, só imprime no terminal.
 """
+import csv
 import json
 import os
 import pathlib
@@ -18,6 +19,10 @@ import festa
 AQUI = pathlib.Path(__file__).parent
 ESTADO = AQUI / "estado.json"
 LISTA_MD = AQUI / "editoras.md"
+LIVROS_CSV = AQUI / "livros.csv"
+COLUNAS_CSV = [("editora", "publisher"), ("titulo", "name"), ("autor", "authors"),
+               ("isbn", "isbn"), ("assunto", "subject"), ("preco", "price"),
+               ("preco_feira", "price_discount"), ("link", "link")]
 SITE = f"https://festadolivro.edusp.com.br/{festa.FLAG}/editoras"
 BRT = timezone(timedelta(hours=-3))
 
@@ -92,6 +97,29 @@ def escrever_lista(editoras, total, agora):
     LISTA_MD.write_text("\n".join(linhas) + "\n", encoding="utf-8")
 
 
+def livros_no_csv():
+    if not LIVROS_CSV.exists():
+        return None
+    with LIVROS_CSV.open(encoding="utf-8", newline="") as f:
+        return sum(1 for _ in csv.reader(f)) - 1  # menos o cabeçalho
+
+
+def salvar_livros(total):
+    """Baixa a busca inteira da API e grava livros.csv. Só roda quando o total
+    de livros mudou (ou o CSV não existe), pra não martelar a API 5x por dia."""
+    if livros_no_csv() == total:
+        return
+    livros = festa.buscar_livros(max_paginas=10_000)
+    livros.sort(key=lambda b: ((b.get("publisher") or "").lower(), (b.get("name") or "").lower(),
+                               b.get("isbn") or ""))
+    with LIVROS_CSV.open("w", encoding="utf-8", newline="") as f:
+        w = csv.writer(f)
+        w.writerow([col for col, _ in COLUNAS_CSV])
+        for b in livros:
+            w.writerow([b.get(campo) or "" for _, campo in COLUNAS_CSV])
+    print(f"livros.csv: {len(livros)} livros salvos.")
+
+
 def main():
     agora = datetime.now(BRT)
     antes = carregar_estado()
@@ -123,6 +151,7 @@ def main():
     ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=1, sort_keys=True),
                       encoding="utf-8")
     escrever_lista(eds, total, agora)
+    salvar_livros(total)
 
 
 if __name__ == "__main__":

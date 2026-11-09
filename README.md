@@ -10,7 +10,7 @@ Usa a API JSON que o próprio site usa (`/api/v1/event-publishers` e `/api/v1/ev
 python monitor.py
 ```
 
-A primeira execução salva o estado (`estado.json`) e avisa quantas editoras já existem; as seguintes só avisam quando muda algo. `editoras.md` fica sempre com a lista atual + links dos PDFs.
+A primeira execução salva o estado (`estado.json`) e avisa quantas editoras já existem; as seguintes só avisam quando muda algo. `editoras.md` fica sempre com a lista atual + links dos PDFs, e `livros.csv` com todos os livros da busca do site (editora, título, autor, ISBN, assunto, preço e preço na feira). O CSV só é baixado de novo quando o total de livros muda.
 
 ## Rodar sozinho (GitHub Actions, grátis)
 
