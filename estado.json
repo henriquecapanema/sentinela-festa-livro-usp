@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-09T14:31-03:00",
+ "checado_em": "2026-11-09T16:37-03:00",
  "editoras": {
   "autonomia-literaria": {
    "name": "Autonomia Literária",
@@ -29,6 +29,10 @@
    "name": "Editora Cosac",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-499/publisher-price-list/8781cf1ad36cd2c4f679f0be06493cc926931541_lista-de-precos-padrao-28a-festa-do-livro-da-usp-dione-oliveiraxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
+  "editora-escala": {
+   "name": "Editora escala",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-506/publisher-price-list/7e0f83d7b88bfd038d5268e7035d49717fcb945b_copia-de-lista-de-precos-padrao-raphaela-marchiorato-carvalhoxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
   "editora-instante": {
    "name": "EDITORA INSTANTE",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-505/publisher-price-list/f3ab991972f66f80ed00247880d203116e9f1c49_lista-de-precos-instante-28a-festa-do-livro-da-usp-editora-instantexlsx-lista-de-precos-instante.pdf"
@@ -40,6 +44,10 @@
   "editora-olhares": {
    "name": "Editora Olhares",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-495/publisher-price-list/bd4438876cce0266bf9eb2c81672a44e9ad24af9_olhares-lista-de-precos-padrao-da-usp-pedro-queirozxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "editora-ufpr": {
+   "name": "Editora UFPR",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-507/publisher-price-list/9fc395898c7a175f00d1a59a1476d176f29835fc_lista-de-precos-28a-festa-do-livro-da-usp-editora-ufpr-valdir-pinheiro-juniorxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "edusp": {
    "name": "Edusp",
@@ -60,6 +68,10 @@
   "harpercollins-brasil": {
    "name": "HarperCollins Brasil",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-502/publisher-price-list/a495e1660882f6a7b0c4e50815ea6e2d8bfa206c_lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-atualizada-1-thais-rodriguesxlsx-planilha1.pdf"
+  },
+  "instituto-tomie-ohtake": {
+   "name": "Instituto Tomie Ohtake",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-509/publisher-price-list/99d066ce8008b4699968f466f1e83798be7781fb_lista-de-precos-padrao-28a-festa-do-livro-da-usp-instituto-tomie-ohtake-xlsx-lista-de-precos-padrao-26a-fe-felipe-salles.pdf"
   },
   "letra-selvagem": {
    "name": "Letra Selvagem",
@@ -104,6 +116,10 @@
   "unifesp": {
    "name": "Unifesp",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-477/publisher-price-list/af446a9e2fc074d5b359a100a513d3ffa54bd3fe_lista-de-precos-padrao-28-festa-do-livro-da-usp-administrativo-editora-unifesp.pdf"
+  },
+  "universo-dos-livros": {
+   "name": "Universo dos livros",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-508/publisher-price-list/7c88b97a4e90eea1e9e73e26f75889c7051cb91f_titulos-usp-26-fabiana-andradexlsx-usp-2026.pdf"
   },
   "via-lettera": {
    "name": "Via Lettera",
