@@ -1,6 +1,6 @@
 # Editoras — 28-festa-do-livro-da-usp
 
-Atualizado em 10/11/2026 10:37 (horário de Brasília). 31 editoras, 31 com catálogo, 2506 livros cadastrados no site.
+Atualizado em 10/11/2026 13:37 (horário de Brasília). 32 editoras, 32 com catálogo, 2506 livros cadastrados no site.
 
 | Editora | Catálogo | Livros cadastrados no site |
 |---|---|---|
@@ -16,6 +16,7 @@ Atualizado em 10/11/2026 10:37 (horário de Brasília). 31 editoras, 31 com cat�
 | Editora Olhares | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-495/publisher-price-list/bd4438876cce0266bf9eb2c81672a44e9ad24af9_olhares-lista-de-precos-padrao-da-usp-pedro-queirozxlsx-lista-de-precos-padrao-26a-fe.pdf) | [79](livros/editora-olhares.csv) |
 | Editora UFPR | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-507/publisher-price-list/9fc395898c7a175f00d1a59a1476d176f29835fc_lista-de-precos-28a-festa-do-livro-da-usp-editora-ufpr-valdir-pinheiro-juniorxlsx-lista-de-precos-padrao-26a-fe.pdf) | — |
 | Edições Sesc | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-501/publisher-price-list/322c5750ae92e8f77866b8d9620f3139faada851_lista-de-precos-padrao-28a-festa-do-livro-da-usp-camilo-otelacxlsx-lista-de-precos-padrao-26a-fe.pdf) | [299](livros/edicoes-sesc.csv) |
+| EdUFSCar | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-510/publisher-price-list/aed404f891a61bb354af192a10c783854114cf78_listagem-edufscar-28a-festa-do-livro-da-usp-jessica-di-lorenzo-melloxlsx-lista-de-precos-padrao-26a-fe.pdf) | — |
 | Edusp | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-473/publisher-price-list/82125841ea8efdada23c7b177b5809a51f2e1aed_edusp-lista-de-precos.pdf) | [1007](livros/edusp.csv) |
 | Grua | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-485/publisher-price-list/d11ff1313d55c0b1d5452bdb53845d71b1b09e1b_lista-de-precos-padrao-28a-festa-do-livro-da-usp-grua-livros.pdf) | — |
 | Grupo Editorial Pensamento | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-476/publisher-price-list/bd396764ab90b2d287225ae36116f4de9ee147a8_lista-de-precos-grupo-editorial-pensamento-28a-festa-do-livro-da-usp-daniela-liger.pdf) | — |

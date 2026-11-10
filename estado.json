@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-10T10:37-03:00",
+ "checado_em": "2026-11-10T13:37-03:00",
  "editoras": {
   "autonomia-literaria": {
    "name": "Autonomia Literária",
@@ -48,6 +48,10 @@
   "editora-ufpr": {
    "name": "Editora UFPR",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-507/publisher-price-list/9fc395898c7a175f00d1a59a1476d176f29835fc_lista-de-precos-28a-festa-do-livro-da-usp-editora-ufpr-valdir-pinheiro-juniorxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "edufscar": {
+   "name": "EdUFSCar",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-510/publisher-price-list/aed404f891a61bb354af192a10c783854114cf78_listagem-edufscar-28a-festa-do-livro-da-usp-jessica-di-lorenzo-melloxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "edusp": {
    "name": "Edusp",
