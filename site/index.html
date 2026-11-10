@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Festa do Livro da USP</title>
+  <meta name="description" content="Busque os livros da Festa do Livro da USP por editora, título, autor ou ISBN e monte sua lista com o preço da feira.">
+  <meta name="theme-color" content="#f6f3ee" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16161a" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📚%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Festa do Livro da USP</h1>
+    <p class="sub" id="status">carregando o catálogo…</p>
+    <nav class="tabs" role="tablist">
+      <button role="tab" id="tab-buscar" aria-selected="true">Buscar</button>
+      <button role="tab" id="tab-lista" aria-selected="false">Minha lista <span id="lista-n" class="badge" hidden></span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="pane-buscar">
+      <div class="controls">
+        <select id="editora" aria-label="Editora"></select>
+        <input id="q" type="search" placeholder="título, autor, assunto ou ISBN" autocomplete="off" aria-label="Buscar">
+      </div>
+      <p id="ed-info" class="note" hidden></p>
+      <p id="contagem" class="note"></p>
+      <div id="resultados" class="rows"></div>
+      <button id="mais" class="btn wide" hidden>mostrar mais</button>
+    </section>
+
+    <section id="pane-lista" hidden>
+      <div id="total" class="total" hidden></div>
+      <div class="controls" id="lista-ctrl" hidden>
+        <select id="lista-ed" aria-label="Filtrar por editora"></select>
+      </div>
+      <div id="lista" class="rows"></div>
+      <p id="lista-vazia" class="empty">Toque no ♡ ao lado de um livro para pôr na sua lista. Ela fica guardada só neste navegador.</p>
+      <div class="actions" id="lista-acoes" hidden>
+        <button id="copiar" class="btn">copiar lista</button>
+        <button id="link" class="btn">link da lista</button>
+        <button id="limpar" class="btn danger">esvaziar</button>
+      </div>
+
+      <details class="import">
+        <summary>Cruzar com uma lista que você já tem</summary>
+        <p class="note">Cole ISBNs (um por linha, ou separados por vírgula) ou o CSV exportado do Goodreads/Skoob. Os livros que estiverem na festa entram na sua lista.</p>
+        <textarea id="import-txt" rows="5" placeholder="9788535914849&#10;9786559280254"></textarea>
+        <label class="file">ou um arquivo: <input type="file" id="import-file" accept=".csv,.txt,text/*"></label>
+        <button id="import-btn" class="btn">cruzar</button>
+        <p id="import-res" class="note" hidden></p>
+      </details>
+    </section>
+  </main>
+
+  <footer>
+    Dados do <a href="https://festadolivro.edusp.com.br/" target="_blank" rel="noreferrer">site da festa</a>, copiados 5x por dia para
+    <a href="https://github.com/henriquecapanema/sentinela-festa-livro-usp" target="_blank" rel="noreferrer">este repositório</a>
+    (<a href="https://raw.githubusercontent.com/henriquecapanema/sentinela-festa-livro-usp/main/indice.json" target="_blank" rel="noreferrer">indice.json</a>).
+    Projeto pessoal, sem vínculo com a Edusp: confira o preço no estande.
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>

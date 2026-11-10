@@ -17,6 +17,7 @@ import urllib.request
 from datetime import datetime, timezone, timedelta
 
 import festa
+import indice
 
 AQUI = pathlib.Path(__file__).parent
 ESTADO = AQUI / "estado.json"
@@ -205,6 +206,7 @@ def main():
     ESTADO.write_text(json.dumps(estado, ensure_ascii=False, indent=1, sort_keys=True),
                       encoding="utf-8")
     escrever_lista(eds, total, agora)
+    indice.gerar()  # indice.json, lido pela página pública (site/)
 
 
 if __name__ == "__main__":
