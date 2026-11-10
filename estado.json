@@ -1,9 +1,17 @@
 {
- "checado_em": "2026-11-10T13:37-03:00",
+ "checado_em": "2026-11-10T16:37-03:00",
  "editoras": {
+  "aller-editora": {
+   "name": "Aller Editora",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-514/publisher-price-list/2409d0914eb9ae4ae8082325f600bf7d5bba2dd2_lista-de-precos-padrao-28-festa-do-livro-da-usp-aller-editoraxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
   "autonomia-literaria": {
    "name": "Autonomia Literária",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-484/publisher-price-list/0bea06d71d67e21b60d6f44514e5ecea65a484c4_lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe-atendimento-autonomia.pdf"
+  },
+  "barbatana": {
+   "name": "Barbatana",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-516/publisher-price-list/29f0ad500fc090d0f4d8b76127e92418c94ce0f2_2026-planilha-de-precos-barbatana-festa-da-usp-xlsx-table-1.pdf"
   },
   "cortez-editora": {
    "name": "CORTEZ EDITORA",
@@ -49,6 +57,10 @@
    "name": "Editora UFPR",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-507/publisher-price-list/9fc395898c7a175f00d1a59a1476d176f29835fc_lista-de-precos-28a-festa-do-livro-da-usp-editora-ufpr-valdir-pinheiro-juniorxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
+  "editora-ufsc": {
+   "name": "Editora UFSC",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-511/publisher-price-list/86eedcd8c69246cfc6f53367561b0275a5ab4c99_edufsc-lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
   "edufscar": {
    "name": "EdUFSCar",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-510/publisher-price-list/aed404f891a61bb354af192a10c783854114cf78_listagem-edufscar-28a-festa-do-livro-da-usp-jessica-di-lorenzo-melloxlsx-lista-de-precos-padrao-26a-fe.pdf"
@@ -85,9 +97,17 @@
    "name": "Livros da Matriz",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-493/publisher-price-list/dc8f3485722dfa5059e67dc7225368567aa97c29_lista-de-precos-livros-da-matriz-28a-festa-do-livro-da-usp-aluizio-leitexlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
+  "martins-fontes-selo-martins": {
+   "name": "Martins Fontes - Selo Martins",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-512/publisher-price-list/3a7d57950f0441d27aacb47d109052edfbdb319a_lista-de-precos-padrao-28a-festa-do-livro-da-usp-2026-alterada-cida-sousaxlsx-lista-de-precos-padrao-28a-fe.pdf"
+  },
   "movimento-neomarginal": {
    "name": "Movimento Neomarginal",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-498/publisher-price-list/81be45ed320492824d12e459b79e0ba73ba2aa1a_movimento-neomarginal-lista-de-precos-padrao-28a-festa-do-livro-da-usp-vitor-mirandaxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "paco-editorial": {
+   "name": "Paco Editorial",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-513/publisher-price-list/76647d3a1bf903adaa2596b7b945c4260dbf9fc5_lista-de-precos-padrao-28a-festa-do-livro-da-usp-1-isabelly-melatoxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "phorte-editora": {
    "name": "Phorte Editora",
@@ -131,5 +151,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 2506
+ "total_livros": 3814
 }
