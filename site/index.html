@@ -23,7 +23,17 @@
   <main>
     <section id="pane-buscar">
       <div class="controls">
-        <label class="select"><select id="editora" aria-label="Editora"></select></label>
+        <div class="picker" id="picker">
+          <select id="editora" aria-label="Editora" hidden></select>
+          <button type="button" class="picker-btn" id="picker-btn" aria-haspopup="listbox" aria-expanded="false" aria-controls="picker-pop">
+            <span class="picker-txt" id="picker-txt">Todas as editoras</span><span class="picker-n" id="picker-n"></span>
+          </button>
+          <div class="picker-bg" id="picker-bg" hidden></div>
+          <div class="picker-pop" id="picker-pop" hidden>
+            <input id="picker-q" type="search" placeholder="filtrar editoras" autocomplete="off" aria-label="Filtrar editoras" aria-controls="picker-list">
+            <div id="picker-list" class="picker-list" role="listbox" aria-label="Editoras"></div>
+          </div>
+        </div>
         <input id="q" type="search" placeholder="título, autor, assunto ou ISBN" autocomplete="off" aria-label="Buscar">
       </div>
       <p id="ed-info" class="note" hidden></p>

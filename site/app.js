@@ -194,7 +194,91 @@ function montarEditoras() {
     `<optgroup label="Com lista de livros">${com.map((e) => `<option value="${esc(e.slug)}">${esc(e.nome)} · ${e.livros}</option>`).join('')}</optgroup>` +
     (pdf.length ? `<optgroup label="Só catálogo em PDF">${pdf.map((e) => `<option value="${esc(e.slug)}">${esc(e.nome)} (PDF)</option>`).join('')}</optgroup>` : '')
   if ([...sel.options].some((o) => o.value === atual)) sel.value = atual
+  picker.montar(com, pdf)
 }
+
+/* ---------- seletor de editora (menu próprio; o <select> escondido guarda o valor) ---------- */
+
+const picker = (() => {
+  const sel = $('editora'), btn = $('picker-btn'), pop = $('picker-pop'), bg = $('picker-bg')
+  const q = $('picker-q'), list = $('picker-list')
+  let ativo = -1
+
+  const opcoes = () => [...list.querySelectorAll('.opt:not([hidden])')]
+  const marcarAtivo = (i) => {
+    const os = opcoes()
+    ativo = Math.max(0, Math.min(i, os.length - 1))
+    os.forEach((o, k) => o.classList.toggle('ativo', k === ativo))
+    os[ativo]?.scrollIntoView({ block: 'nearest' })
+  }
+  const rotulo = () => {
+    const ed = D?.editoras.find((e) => e.slug === sel.value)
+    $('picker-txt').textContent = ed ? ed.nome : 'Todas as editoras'
+    $('picker-n').textContent = ed ? (ed.livros ? ed.livros.toLocaleString('pt-BR') : 'PDF') : (D ? D.total.toLocaleString('pt-BR') : '')
+  }
+  const abrir = () => {
+    pop.hidden = bg.hidden = false
+    btn.setAttribute('aria-expanded', 'true')
+    q.value = ''
+    filtrar()
+    const os = opcoes()
+    marcarAtivo(Math.max(0, os.findIndex((o) => o.dataset.v === sel.value)))
+    if (matchMedia('(pointer: fine)').matches) q.focus()
+  }
+  const fechar = (foco = true) => {
+    if (pop.hidden) return
+    pop.hidden = bg.hidden = true
+    btn.setAttribute('aria-expanded', 'false')
+    if (foco) btn.focus()
+  }
+  const escolher = (v) => {
+    sel.value = v
+    list.querySelectorAll('.opt').forEach((o) => o.setAttribute('aria-selected', o.dataset.v === v))
+    rotulo()
+    fechar()
+    sel.dispatchEvent(new Event('change'))
+  }
+  function filtrar() {
+    const t = norm(q.value)
+    for (const o of list.querySelectorAll('.opt')) o.hidden = !!t && !o.dataset.busca.includes(t)
+    for (const g of list.querySelectorAll('.grp')) {
+      let n = g.nextElementSibling, algum = false
+      while (n && !n.classList.contains('grp')) { if (!n.hidden) algum = true; n = n.nextElementSibling }
+      g.hidden = !algum
+    }
+    list.dataset.vazio = opcoes().length ? '' : 'Nenhuma editora com esse nome'
+    marcarAtivo(0)
+  }
+
+  btn.onclick = () => (pop.hidden ? abrir() : fechar())
+  bg.onclick = () => fechar(false)
+  q.oninput = filtrar
+  list.onclick = (e) => { const o = e.target.closest('.opt'); if (o) escolher(o.dataset.v) }
+  list.onmousemove = (e) => { const o = e.target.closest('.opt'); if (o) { const i = opcoes().indexOf(o); if (i !== ativo) marcarAtivo(i) } }
+  pop.onkeydown = (e) => {
+    if (e.key === 'ArrowDown') { e.preventDefault(); marcarAtivo(ativo + 1) }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); marcarAtivo(ativo - 1) }
+    else if (e.key === 'Enter') { e.preventDefault(); const o = opcoes()[ativo]; if (o) escolher(o.dataset.v) }
+    else if (e.key === 'Escape') { e.preventDefault(); fechar() }
+    else if (e.key === 'Tab') fechar(false)
+  }
+  btn.onkeydown = (e) => { if (e.key === 'ArrowDown' || e.key === 'ArrowUp') { e.preventDefault(); abrir() } }
+  document.addEventListener('click', (e) => { if (!pop.hidden && !e.target.closest('#picker')) fechar(false) })
+
+  return {
+    montar(com, pdf) {
+      const opt = (v, nome, n, extra = '') =>
+        `<div class="opt" role="option" data-v="${esc(v)}" data-busca="${esc(norm(nome))}" aria-selected="${v === sel.value}">` +
+        `<span class="nome">${esc(nome)}</span><span class="n${extra}">${n}</span></div>`
+      list.innerHTML =
+        opt('', 'Todas as editoras', D.total.toLocaleString('pt-BR')) +
+        `<div class="grp">Com lista de livros</div>` +
+        com.map((e) => opt(e.slug, e.nome, e.livros.toLocaleString('pt-BR'))).join('') +
+        (pdf.length ? `<div class="grp">Só catálogo em PDF</div>` + pdf.map((e) => opt(e.slug, e.nome, 'PDF', ' pdf')).join('') : '')
+      rotulo()
+    },
+  }
+})()
 
 let resultados = []
 let limite = PAGINA
