@@ -23,7 +23,7 @@
   <main>
     <section id="pane-buscar">
       <div class="controls">
-        <select id="editora" aria-label="Editora"></select>
+        <label class="select"><select id="editora" aria-label="Editora"></select></label>
         <input id="q" type="search" placeholder="título, autor, assunto ou ISBN" autocomplete="off" aria-label="Buscar">
       </div>
       <p id="ed-info" class="note" hidden></p>
@@ -34,9 +34,7 @@
 
     <section id="pane-lista" hidden>
       <div id="total" class="total" hidden></div>
-      <div class="controls" id="lista-ctrl" hidden>
-        <select id="lista-ed" aria-label="Filtrar por editora"></select>
-      </div>
+      <div class="chips" id="lista-ed" role="group" aria-label="Filtrar por editora" hidden></div>
       <div id="lista" class="rows"></div>
       <p id="lista-vazia" class="empty">Toque no ♡ ao lado de um livro para pôr na sua lista. Ela fica guardada só neste navegador.</p>
       <div class="actions" id="lista-acoes" hidden>

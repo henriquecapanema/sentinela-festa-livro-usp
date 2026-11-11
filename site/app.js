@@ -231,20 +231,23 @@ function desenharResultados() {
   $('mais').hidden = n <= limite
 }
 
+let filtroLista = ''
+
 function desenharLista() {
   // preço e link vêm do catálogo atual quando o livro ainda está nele
   const itens = lista.map((x) => (porChave.get(x.k) || x))
   const eds = new Map()
   for (const b of itens) eds.set(b.slug, { nome: b.editora, n: (eds.get(b.slug)?.n || 0) + 1 })
-  const sel = $('lista-ed')
-  const atual = sel.value
+  if (!eds.has(filtroLista)) filtroLista = ''
   const ordem = [...eds].sort((a, b) => collator.compare(a[1].nome, b[1].nome))
-  sel.innerHTML = `<option value="">Todas · ${itens.length}</option>` + ordem.map(([s, e]) => `<option value="${esc(s)}">${esc(e.nome)} · ${e.n}</option>`).join('')
-  sel.value = eds.has(atual) ? atual : ''
-  $('lista-ctrl').hidden = eds.size < 2
+  const chip = (slug, nome, n) =>
+    `<button class="chip" data-slug="${esc(slug)}" aria-pressed="${slug === filtroLista}">${esc(nome)}<span class="n">${n}</span></button>`
+  const chips = $('lista-ed')
+  chips.innerHTML = chip('', 'Todas', itens.length) + ordem.map(([s, e]) => chip(s, e.nome, e.n)).join('')
+  chips.hidden = eds.size < 2
 
   const mostrar = itens
-    .filter((b) => !sel.value || b.slug === sel.value)
+    .filter((b) => !filtroLista || b.slug === filtroLista)
     .sort((a, b) => collator.compare(a.editora, b.editora) || collator.compare(a.titulo, b.titulo))
 
   let html = ''
@@ -353,7 +356,12 @@ $('editora').onchange = buscar
 let qT
 $('q').oninput = () => { clearTimeout(qT); qT = setTimeout(buscar, 120) }
 $('mais').onclick = () => { limite += PAGINA; desenharResultados() }
-$('lista-ed').onchange = desenharLista
+$('lista-ed').onclick = (e) => {
+  const c = e.target.closest('.chip')
+  if (!c) return
+  filtroLista = c.dataset.slug
+  desenharLista()
+}
 document.addEventListener('click', (e) => {
   const h = e.target.closest('.heart')
   if (h) alternar(h.dataset.k)
