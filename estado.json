@@ -1,6 +1,10 @@
 {
- "checado_em": "2026-11-12T09:20-03:00",
+ "checado_em": "2026-11-12T12:20-03:00",
  "editoras": {
+  "34-editora": {
+   "name": "34 Editora",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-474/publisher-price-list/2cb61afffe184360f26154723fc27140fc7fceb7_editora-34-lista-de-precos-festa-do-livro-da-usp-2026-eliete-cotrim-editora-34-lista-de-precos-festa-do-livro-da-usp-2026-eliete-cotrim.pdf"
+  },
   "aller-editora": {
    "name": "Aller Editora",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-514/publisher-price-list/2409d0914eb9ae4ae8082325f600bf7d5bba2dd2_lista-de-precos-padrao-28-festa-do-livro-da-usp-aller-editoraxlsx-lista-de-precos-padrao-26a-fe.pdf"
@@ -15,7 +19,15 @@
   },
   "autonomia-literaria": {
    "name": "Autonomia Literária",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-484/publisher-price-list/0bea06d71d67e21b60d6f44514e5ecea65a484c4_lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe-atendimento-autonomia.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-484/publisher-price-list/0c6ff5cee30c0723c8f549a8f4c8b1f51be1b94f_lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe-atendimento-autonomia-1.pdf"
+  },
+  "autores-associados": {
+   "name": "AUTORES ASSOCIADOS",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-528/publisher-price-list/c300014d9a8c22c17596c3851dfab65fe4962017_lista-de-precos-autores-associados-28a-festa-do-livro-da-usp-autores-associadosxlsx-pedido-detalhado-usp-2026-1.pdf"
+  },
+  "baiao": {
+   "name": "Baião",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-529/publisher-price-list/20ddfad332447799a59d072944e7a60a116ef04c_baiao-lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe-clara-karepovs.pdf"
   },
   "barbatana": {
    "name": "Barbatana",
@@ -31,7 +43,7 @@
   },
   "dublinense": {
    "name": "Dublinense",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-520/publisher-price-list/4a78679b36d5b645669c889f28cf2352d6442165_dublinense-lista-de-precos-padrao-28a-festa-do-livro-da-usp-gustavo-faraon.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-520/publisher-price-list/965309fb50710b005a2dfec36e95e9dcfb1a636d_dublinense-lista-de-precos-padrao-28a-festa-do-livro-da-usp-gustavo-faraon.pdf"
   },
   "edicoes-loyola": {
    "name": "Edições Loyola",
@@ -52,6 +64,10 @@
   "editora-cosac": {
    "name": "Editora Cosac",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-499/publisher-price-list/8781cf1ad36cd2c4f679f0be06493cc926931541_lista-de-precos-padrao-28a-festa-do-livro-da-usp-dione-oliveiraxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "editora-da-unicamp": {
+   "name": "Editora da Unicamp",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-531/publisher-price-list/969f8119ba63c5413ebca70755a6bebc51368c18_lista-de-precos-editora-da-unicamp-28a-festa-do-livro-da-uspxlsx-livros-2026.pdf"
   },
   "editora-escala": {
    "name": "Editora escala",
@@ -157,13 +173,17 @@
    "name": "Phorte Editora",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-480/publisher-price-list/746cbccff71ddc90f33b2a4946dd506da57c4043_phorte-editora-lista-de-precos-28-festa-do-livro-da-usp-priscila-souza.pdf"
   },
+  "pinard": {
+   "name": "Pinard",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-532/publisher-price-list/4188133c32b47e04b9f7daa75102c0110fb54b5e_pinard-festa-da-usp-2026-oficialxlsx-planilha1.pdf"
+  },
   "pontes-editores": {
    "name": "Pontes Editores",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-489/publisher-price-list/c256f17725a68f4fbc97b6e51215b368a037201f_lista-pontes-11-2026-thiago-bonfaxls-livros.pdf"
   },
   "pulo-do-gato": {
    "name": "Pulo do Gato",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-487/publisher-price-list/bb782b9d4e8210262c97c43932c4f372912fc800_lista-de-precos-pulo-do-gato-editora-28a-festa-do-livro-da-usp-alessandra-carignanixlsx-lista-de-precos-padrao-26a-fe.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-487/publisher-price-list/dd0d5536f475d00a7936f6af0a79c7f2f6bea446_lista-de-precos-pulo-do-gato-editora-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "quina-editora": {
    "name": "Quina Editora",
@@ -203,5 +223,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 4863
+ "total_livros": 6543
 }
