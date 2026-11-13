@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-13T09:20-03:00",
+ "checado_em": "2026-11-13T12:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -25,6 +25,10 @@
    "name": "AUTORES ASSOCIADOS",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-528/publisher-price-list/c300014d9a8c22c17596c3851dfab65fe4962017_lista-de-precos-autores-associados-28a-festa-do-livro-da-usp-autores-associadosxlsx-pedido-detalhado-usp-2026-1.pdf"
   },
+  "azuco": {
+   "name": "Azuco",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-535/publisher-price-list/b985230d7b669e2f9750a197e847fdab243a3ee1_lista-de-precos-padrao-28-festa-do-livro-da-usp-karen-szwarcxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
   "baiao": {
    "name": "Baião",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-529/publisher-price-list/20ddfad332447799a59d072944e7a60a116ef04c_baiao-lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe-clara-karepovs.pdf"
@@ -32,6 +36,10 @@
   "barbatana": {
    "name": "Barbatana",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-516/publisher-price-list/29f0ad500fc090d0f4d8b76127e92418c94ce0f2_2026-planilha-de-precos-barbatana-festa-da-usp-xlsx-table-1.pdf"
+  },
+  "buzz-editora": {
+   "name": "Buzz Editora",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-537/publisher-price-list/a68918e611a0c02b29f4e60976c586ebfc69550d_buzz-editoraxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "cortez-editora": {
    "name": "CORTEZ EDITORA",
@@ -185,9 +193,17 @@
    "name": "Pontes Editores",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-489/publisher-price-list/c256f17725a68f4fbc97b6e51215b368a037201f_lista-pontes-11-2026-thiago-bonfaxls-livros.pdf"
   },
+  "publicacoes-bbm": {
+   "name": "Publicações BBM",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-534/publisher-price-list/838d1f7af035d7b9e2ea063d4a21fe0643e4143d_publicacoes-bbm-festa-2026-publicacoes-bbm-uspxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
   "pulo-do-gato": {
    "name": "Pulo do Gato",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-487/publisher-price-list/dd0d5536f475d00a7936f6af0a79c7f2f6bea446_lista-de-precos-pulo-do-gato-editora-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "quatro-cantos": {
+   "name": "Quatro Cantos",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-536/publisher-price-list/7086a8179796176ed405844bc5a670dbadf7b6c4_quatro-cantos1-rosana-martinelli-quatro-cantos1-rosana-martinelli.pdf"
   },
   "quina-editora": {
    "name": "Quina Editora",
@@ -227,5 +243,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 6682
+ "total_livros": 6874
 }

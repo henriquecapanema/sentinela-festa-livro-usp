@@ -1,6 +1,6 @@
 # Editoras — 28-festa-do-livro-da-usp
 
-Atualizado em 13/11/2026 09:20 (horário de Brasília). 56 editoras, 56 com catálogo, 6682 livros cadastrados no site.
+Atualizado em 13/11/2026 12:20 (horário de Brasília). 60 editoras, 60 com catálogo, 6874 livros cadastrados no site.
 
 | Editora | Catálogo | Livros cadastrados no site |
 |---|---|---|
@@ -10,8 +10,10 @@ Atualizado em 13/11/2026 09:20 (horário de Brasília). 56 editoras, 56 com cat�
 | Ars et Vita | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-488/publisher-price-list/ad2c12586d6bc48f921ec7ef9e56871bd6cf1dd8_lista-de-precos-padrao-uspxlsx-maria-vragova.pdf) | [21](livros/ars-et-vita.csv) |
 | Autonomia Literária | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-484/publisher-price-list/0c6ff5cee30c0723c8f549a8f4c8b1f51be1b94f_lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe-atendimento-autonomia-1.pdf) | — |
 | AUTORES ASSOCIADOS | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-528/publisher-price-list/c300014d9a8c22c17596c3851dfab65fe4962017_lista-de-precos-autores-associados-28a-festa-do-livro-da-usp-autores-associadosxlsx-pedido-detalhado-usp-2026-1.pdf) | [285](livros/autores-associados.csv) |
+| Azuco | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-535/publisher-price-list/b985230d7b669e2f9750a197e847fdab243a3ee1_lista-de-precos-padrao-28-festa-do-livro-da-usp-karen-szwarcxlsx-lista-de-precos-padrao-26a-fe.pdf) | [21](livros/azuco.csv) |
 | Baião | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-529/publisher-price-list/20ddfad332447799a59d072944e7a60a116ef04c_baiao-lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe-clara-karepovs.pdf) | — |
 | Barbatana | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-516/publisher-price-list/29f0ad500fc090d0f4d8b76127e92418c94ce0f2_2026-planilha-de-precos-barbatana-festa-da-usp-xlsx-table-1.pdf) | [51](livros/barbatana.csv) |
+| Buzz Editora | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-537/publisher-price-list/a68918e611a0c02b29f4e60976c586ebfc69550d_buzz-editoraxlsx-lista-de-precos-padrao-26a-fe.pdf) | [83](livros/buzz-editora.csv) |
 | CORTEZ EDITORA | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-486/publisher-price-list/6ae6b0e7df7d59ca7d135ecb85d8c32e2db1a130_cortez-editora-2026-magnun-salesxls-plan1-1.pdf) | [150](livros/cortez-editora.csv) |
 | DBA Literatura | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-481/publisher-price-list/399e7e1d532d22158749523f673a30616a2bf2bb_dba-literatura-feira-da-usp-2026-tabela-pro-site-usp-dba-editora.pdf) | — |
 | Dublinense | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-520/publisher-price-list/965309fb50710b005a2dfec36e95e9dcfb1a636d_dublinense-lista-de-precos-padrao-28a-festa-do-livro-da-usp-gustavo-faraon.pdf) | — |
@@ -50,7 +52,9 @@ Atualizado em 13/11/2026 09:20 (horário de Brasília). 56 editoras, 56 com cat�
 | Phorte Editora | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-480/publisher-price-list/746cbccff71ddc90f33b2a4946dd506da57c4043_phorte-editora-lista-de-precos-28-festa-do-livro-da-usp-priscila-souza.pdf) | [60](livros/phorte-editora.csv) |
 | Pinard | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-532/publisher-price-list/4188133c32b47e04b9f7daa75102c0110fb54b5e_pinard-festa-da-usp-2026-oficialxlsx-planilha1.pdf) | [33](livros/pinard.csv) |
 | Pontes Editores | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-489/publisher-price-list/c256f17725a68f4fbc97b6e51215b368a037201f_lista-pontes-11-2026-thiago-bonfaxls-livros.pdf) | — |
+| Publicações BBM | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-534/publisher-price-list/838d1f7af035d7b9e2ea063d4a21fe0643e4143d_publicacoes-bbm-festa-2026-publicacoes-bbm-uspxlsx-lista-de-precos-padrao-26a-fe.pdf) | [39](livros/publicacoes-bbm.csv) |
 | Pulo do Gato | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-487/publisher-price-list/dd0d5536f475d00a7936f6af0a79c7f2f6bea446_lista-de-precos-pulo-do-gato-editora-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe.pdf) | [86](livros/pulo-do-gato.csv) |
+| Quatro Cantos | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-536/publisher-price-list/7086a8179796176ed405844bc5a670dbadf7b6c4_quatro-cantos1-rosana-martinelli-quatro-cantos1-rosana-martinelli.pdf) | [49](livros/quatro-cantos.csv) |
 | Quina Editora | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-503/publisher-price-list/fe7ba8b18e1fa90d71ca5230dfb4078649148273_lista-de-precos-padrao-28a-festa-do-livro-da-usp-quina-editora-quina-editoraxlsx-lista-de-precos-padrao-26a-fe.pdf) | [21](livros/quina-editora.csv) |
 | Seiva | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-519/publisher-price-list/90dd6b002482b79d1b62dacf964aa0796d3b65a2_lista-de-precos-padrao-28a-festa-do-livro-da-usp-seivaxlsx-lista-de-precos-padrao-26a-fe.pdf) | [8](livros/seiva.csv) |
 | Sisko Editora | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-475/publisher-price-list/0b002256fa72754bd46a27b14ca3e73aca2b4234_sisko-editora-lista-de-livros-2026xlsx-sisko-editora-lista-de-livros.pdf) | [19](livros/sisko-editora.csv) |
