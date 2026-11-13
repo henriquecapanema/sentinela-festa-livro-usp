@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-13T12:20-03:00",
+ "checado_em": "2026-11-13T15:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -41,6 +41,14 @@
    "name": "Buzz Editora",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-537/publisher-price-list/a68918e611a0c02b29f4e60976c586ebfc69550d_buzz-editoraxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
+  "catapulta": {
+   "name": "Catapulta",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-538/publisher-price-list/2f251675cbc9077e79cf3f5195678c8b034fa4ac_lista-de-precos-28a-festa-do-livro-da-usp-marcos-telmo.pdf"
+  },
+  "caxinguele": {
+   "name": "Caxinguelê",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-539/publisher-price-list/fc6fdade6f5a32a0e491aad7319a4c8fc6be11d7_caxinguele-lista-de-precos-28-festa-do-livro-usp-2026-aline-monteiroxlsx-lista-de-precos-caxinguele.pdf"
+  },
   "cortez-editora": {
    "name": "CORTEZ EDITORA",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-486/publisher-price-list/6ae6b0e7df7d59ca7d135ecb85d8c32e2db1a130_cortez-editora-2026-magnun-salesxls-plan1-1.pdf"
@@ -81,6 +89,14 @@
    "name": "Editora escala",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-506/publisher-price-list/7e0f83d7b88bfd038d5268e7035d49717fcb945b_copia-de-lista-de-precos-padrao-raphaela-marchiorato-carvalhoxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
+  "editora-escuta": {
+   "name": "EDITORA ESCUTA",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-541/publisher-price-list/37d127c927cf3a067cdad574e953dfb0a46dbedf_editora-escuta-28a-festa-do-livro-da-usp-vendas-editora-escutaxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "editora-estacao-liberdade": {
+   "name": "Editora Estação Liberdade",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-542/publisher-price-list/360128ca205c7cad6f5b1725be3a31f855bcd4a8_editora-estacao-liberdade-usp-2026-estacao-liberdadexlsx-plan1.pdf"
+  },
   "editora-instante": {
    "name": "EDITORA INSTANTE",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-505/publisher-price-list/f3ab991972f66f80ed00247880d203116e9f1c49_lista-de-precos-instante-28a-festa-do-livro-da-usp-editora-instantexlsx-lista-de-precos-instante.pdf"
@@ -88,6 +104,18 @@
   "editora-joaquina": {
    "name": "Editora Joaquina",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-525/publisher-price-list/e06bb73e8cc192bf8b1abd891b932c6d6236e0a4_lista-de-precos-padrao-28a-festa-do-livro-da-usp-ed-joaquinaxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "editora-kitembo": {
+   "name": "EDITORA KITEMBO",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-543/publisher-price-list/b8866f2e764dfd07880c7e1259c5928ddd3dfd84_kitembo-lista-de-precos-timbress-producoes.pdf"
+  },
+  "editora-melhoramentos": {
+   "name": "Editora Melhoramentos",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-544/publisher-price-list/f4c7a2e3c766fafe4a30483caf56ee203315ee07_lista-de-preco-usp26-dani-raposo-lista-de-preco-usp26-dani-raposo.pdf"
+  },
+  "editora-miolo-mole": {
+   "name": "Editora Miolo Mole",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-545/publisher-price-list/570223e28829a0129bf60db983ccfdbcfc3cbd57_miolo-mole-lista-de-precos-padrao-28a-festa-do-livro-da-usp-luana-vignonxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "editora-mostarda": {
    "name": "Editora Mostarda",
@@ -243,5 +271,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 6874
+ "total_livros": 7249
 }
