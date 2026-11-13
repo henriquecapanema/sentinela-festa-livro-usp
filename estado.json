@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-13T15:20-03:00",
+ "checado_em": "2026-11-13T18:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -129,6 +129,14 @@
    "name": "Editora Panda Books",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-533/publisher-price-list/07d19aee06ea471b8a25cfcbf3d58d0e1f304c47_panda-books-festa-da-usp-2026-mayara-meloxlsx-panda-books-010226.pdf"
   },
+  "editora-peiropolis": {
+   "name": "Editora Peirópolis",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-546/publisher-price-list/04bf8266befa6eca7871eb79e118675546c99df0_peiropolis-lista-de-precos-padrao-28a-festa-do-livro-da-usp-marketing-peiropolisxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "editora-ufmg": {
+   "name": "EDITORA UFMG",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-547/publisher-price-list/9ee61cbe8fd056babd870688e6c3398d8e3ba067_editora-ufmg-planilha-metadados-28-festa-do-livro-da-usp-angela-santos.pdf"
+  },
   "editora-ufpr": {
    "name": "Editora UFPR",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-507/publisher-price-list/9fc395898c7a175f00d1a59a1476d176f29835fc_lista-de-precos-28a-festa-do-livro-da-usp-editora-ufpr-valdir-pinheiro-juniorxlsx-lista-de-precos-padrao-26a-fe.pdf"
@@ -136,6 +144,10 @@
   "editora-ufsc": {
    "name": "Editora UFSC",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-511/publisher-price-list/86eedcd8c69246cfc6f53367561b0275a5ab4c99_edufsc-lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "editora-unesp": {
+   "name": "Editora Unesp",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-548/publisher-price-list/23950afa0c8153b7357b87c3b5b136db8d9ec6a4_festa-da-usp-2026-mariana-buckxlsx-pedidos.pdf"
   },
   "eduem": {
    "name": "Eduem",
@@ -271,5 +283,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 7249
+ "total_livros": 7352
 }
