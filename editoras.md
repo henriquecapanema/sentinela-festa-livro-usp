@@ -1,6 +1,6 @@
 # Editoras — 28-festa-do-livro-da-usp
 
-Atualizado em 12/11/2026 21:20 (horário de Brasília). 55 editoras, 55 com catálogo, 6543 livros cadastrados no site.
+Atualizado em 13/11/2026 09:20 (horário de Brasília). 56 editoras, 56 com catálogo, 6682 livros cadastrados no site.
 
 | Editora | Catálogo | Livros cadastrados no site |
 |---|---|---|
@@ -24,6 +24,7 @@ Atualizado em 12/11/2026 21:20 (horário de Brasília). 55 editoras, 55 com cat�
 | Editora Joaquina | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-525/publisher-price-list/e06bb73e8cc192bf8b1abd891b932c6d6236e0a4_lista-de-precos-padrao-28a-festa-do-livro-da-usp-ed-joaquinaxlsx-lista-de-precos-padrao-26a-fe.pdf) | [12](livros/editora-joaquina.csv) |
 | Editora Mostarda | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-494/publisher-price-list/33499f57d3034b5318a33b6dcaf63122a679a548_editora-mostarda-usp-juliana-cerdeiraxlsx-planilha1.pdf) | [102](livros/editora-mostarda.csv) |
 | Editora Olhares | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-495/publisher-price-list/bd4438876cce0266bf9eb2c81672a44e9ad24af9_olhares-lista-de-precos-padrao-da-usp-pedro-queirozxlsx-lista-de-precos-padrao-26a-fe.pdf) | [79](livros/editora-olhares.csv) |
+| Editora Panda Books | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-533/publisher-price-list/07d19aee06ea471b8a25cfcbf3d58d0e1f304c47_panda-books-festa-da-usp-2026-mayara-meloxlsx-panda-books-010226.pdf) | [139](livros/editora-panda-books.csv) |
 | Editora UFPR | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-507/publisher-price-list/9fc395898c7a175f00d1a59a1476d176f29835fc_lista-de-precos-28a-festa-do-livro-da-usp-editora-ufpr-valdir-pinheiro-juniorxlsx-lista-de-precos-padrao-26a-fe.pdf) | [133](livros/editora-ufpr.csv) |
 | Editora UFSC | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-511/publisher-price-list/86eedcd8c69246cfc6f53367561b0275a5ab4c99_edufsc-lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe.pdf) | [297](livros/editora-ufsc.csv) |
 | Edições Loyola | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-521/publisher-price-list/79eb55cee3a70873f3cd19b05c6e138390940ac6_edicoes-loyola-edicoes-loyola.pdf) | [94](livros/edicoes-loyola.csv) |

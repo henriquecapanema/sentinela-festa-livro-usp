@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-12T21:20-03:00",
+ "checado_em": "2026-11-13T09:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -88,6 +88,10 @@
   "editora-olhares": {
    "name": "Editora Olhares",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-495/publisher-price-list/bd4438876cce0266bf9eb2c81672a44e9ad24af9_olhares-lista-de-precos-padrao-da-usp-pedro-queirozxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "editora-panda-books": {
+   "name": "Editora Panda Books",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-533/publisher-price-list/07d19aee06ea471b8a25cfcbf3d58d0e1f304c47_panda-books-festa-da-usp-2026-mayara-meloxlsx-panda-books-010226.pdf"
   },
   "editora-ufpr": {
    "name": "Editora UFPR",
@@ -223,5 +227,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 6543
+ "total_livros": 6682
 }
