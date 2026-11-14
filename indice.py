@@ -25,6 +25,8 @@ import re
 AQUI = pathlib.Path(__file__).parent
 SAIDA = AQUI / "indice.json"
 FONTES = (("site", AQUI / "livros"), ("pdf", AQUI / "livros-pdf"))
+# nome de editoras que só existem em `livros-pdf/` (não aparecem no site da festa)
+NOMES_EXTRA = {"boitempo": "Boitempo", "boitata": "Boitatá"}
 COLUNAS = ["editora", "titulo", "autor", "isbn13", "isbn", "assunto", "preco", "preco_feira", "link"]
 
 
@@ -62,7 +64,7 @@ def gerar():
                 por_slug[p.stem] = (fonte, linhas)
 
     def nome(slug):
-        return (meta.get(slug) or {}).get("name") or slug.replace("-", " ")
+        return (meta.get(slug) or {}).get("name") or NOMES_EXTRA.get(slug) or slug.replace("-", " ")
 
     slugs = sorted(set(meta) | set(por_slug),
                    key=lambda s: (s not in por_slug, nome(s).casefold()))
