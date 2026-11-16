@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-16T15:20-03:00",
+ "checado_em": "2026-11-16T18:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -16,6 +16,10 @@
   "ars-et-vita": {
    "name": "Ars et Vita",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-488/publisher-price-list/ad2c12586d6bc48f921ec7ef9e56871bd6cf1dd8_lista-de-precos-padrao-uspxlsx-maria-vragova.pdf"
+  },
+  "atelie-editorial": {
+   "name": "Ateliê Editorial",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-527/publisher-price-list/576fbafdcf7c27815e127d00f39308f9be236763_lista-usp-csv-senise-fonzi-lista-usp-csv-senise-fonzi.pdf"
   },
   "autonomia-literaria": {
    "name": "Autonomia Literária",
@@ -80,6 +84,10 @@
   "editora-biruta": {
    "name": "Editora Biruta",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-482/publisher-price-list/caeeef734d28ee446d3c6a84352a3e13228912f5_editora-biruta-editora-birutaxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "editora-caixote": {
+   "name": "Editora Caixote",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-540/publisher-price-list/01a943878cd456d6f9ae6640355d1da3ad40b2c9_lista-de-precos-padrao-28-festa-do-livro-da-usp-2026xlsx-lista-de-precos-padrao-27a-fe-1-2.pdf"
   },
   "editora-cosac": {
    "name": "Editora Cosac",
@@ -317,6 +325,10 @@
    "name": "Seiva",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-519/publisher-price-list/90dd6b002482b79d1b62dacf964aa0796d3b65a2_lista-de-precos-padrao-28a-festa-do-livro-da-usp-seivaxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
+  "seja-breve": {
+   "name": "Seja Breve",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-564/publisher-price-list/a83bdf21f9ceae2d6d526f067114a63ba13d3044_seja-breve-festa-do-livro-usp-26-bernardo-ajzenberg.pdf"
+  },
   "sisko-editora": {
    "name": "Sisko Editora",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-475/publisher-price-list/0b002256fa72754bd46a27b14ca3e73aca2b4234_sisko-editora-lista-de-livros-2026xlsx-sisko-editora-lista-de-livros.pdf"
@@ -347,5 +359,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 7636
+ "total_livros": 8001
 }
