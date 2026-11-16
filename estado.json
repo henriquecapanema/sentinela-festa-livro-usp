@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-16T09:20-03:00",
+ "checado_em": "2026-11-16T12:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -32,6 +32,10 @@
   "baiao": {
    "name": "Baião",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-529/publisher-price-list/20ddfad332447799a59d072944e7a60a116ef04c_baiao-lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe-clara-karepovs.pdf"
+  },
+  "balao-editorial": {
+   "name": "Balão Editorial",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-530/publisher-price-list/ed60024546c02fa80bb95a4159fe789b01a1ad9d_balao-editorialxlsx-sheet1.pdf"
   },
   "barbatana": {
    "name": "Barbatana",
@@ -181,6 +185,10 @@
    "name": "HarperCollins Brasil",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-502/publisher-price-list/a495e1660882f6a7b0c4e50815ea6e2d8bfa206c_lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-atualizada-1-thais-rodriguesxlsx-planilha1.pdf"
   },
+  "hucitec-editora": {
+   "name": "Hucitec Editora",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-483/publisher-price-list/4397d0f6444bcf3cee696dc0c276b1899d954473_hucitec.pdf"
+  },
   "instituto-tomie-ohtake": {
    "name": "Instituto Tomie Ohtake",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-509/publisher-price-list/99d066ce8008b4699968f466f1e83798be7781fb_lista-de-precos-padrao-28a-festa-do-livro-da-usp-instituto-tomie-ohtake-xlsx-lista-de-precos-padrao-26a-fe-felipe-salles.pdf"
@@ -283,5 +291,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 7352
+ "total_livros": 7636
 }
