@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-17T09:20-03:00",
+ "checado_em": "2026-11-17T12:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -19,7 +19,7 @@
   },
   "atelie-editorial": {
    "name": "Ateliê Editorial",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-527/publisher-price-list/576fbafdcf7c27815e127d00f39308f9be236763_lista-usp-csv-senise-fonzi-lista-usp-csv-senise-fonzi.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-527/publisher-price-list/9f5840b8db7b3db850b1aacdd69c9f0cb9680d9f_atelie-xlsx-lista-usp.pdf"
   },
   "autonomia-literaria": {
    "name": "Autonomia Literária",
@@ -317,6 +317,10 @@
    "name": "Quina Editora",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-503/publisher-price-list/fe7ba8b18e1fa90d71ca5230dfb4078649148273_lista-de-precos-padrao-28a-festa-do-livro-da-usp-quina-editora-quina-editoraxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
+  "reformatorio": {
+   "name": "Reformatório",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-490/publisher-price-list/b534a31068a5b2acc09cd454077c4c8b168a9d4d_festa-da-usp-lista-de-precos-xls-2026-01-11-reformatorio-pasavento-nocelli-editora-reformatorioxlsx-vlx-product-metadata.pdf"
+  },
   "relicario": {
    "name": "Relicário",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-563/publisher-price-list/8e475cd753ca00a3e4724630cf2df47dac0c5a17_relicario-festa-do-livro-da-usp-2026-relicario-edicoesxlsx-pagina1.pdf"
@@ -332,6 +336,10 @@
   "sisko-editora": {
    "name": "Sisko Editora",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-475/publisher-price-list/0b002256fa72754bd46a27b14ca3e73aca2b4234_sisko-editora-lista-de-livros-2026xlsx-sisko-editora-lista-de-livros.pdf"
+  },
+  "tantatinta-carlini-e-caniato": {
+   "name": "TantaTinta / Carlini e Caniato",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-565/publisher-price-list/5bba62d3c93220418df4cc8ecb9d5d6c22dcf311_tantatinta-lista-de-precos-28-festa-do-livro-da-usp-carlini-e-caniato-tantatinta.pdf"
   },
   "telos-editora": {
    "name": "Telos Editora",
@@ -356,8 +364,12 @@
   "via-lettera": {
    "name": "Via Lettera",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-504/publisher-price-list/c3d6bc9c3dcf4d835c96bedf4708bd1f8de47f29_lista-de-precos-padrao-28a-festa-do-livro-da-usp-via-lettera-editora-vl.pdf"
+  },
+  "zain": {
+   "name": "Zain",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-478/publisher-price-list/693beaeb10c3dfc8af876dd4880f911cc10894f3_lista-de-precos-padrao-28a-festa-do-livro-da-usp-editora-zainxlsx-lista-de-precos-padrao-26a-fe.pdf"
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 8374
+ "total_livros": 10294
 }
