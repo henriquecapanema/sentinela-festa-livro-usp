@@ -1,10 +1,9 @@
 """Checa a página de editoras da Festa do Livro da USP e avisa quando aparece
 editora nova ou lista de preços (catálogo) nova/atualizada.
 
-Notificações (configure por variável de ambiente, todas opcionais):
-  NTFY_TOPIC                       -> push via ntfy.sh (app grátis, qualquer um pode assinar o tópico)
+Notificação (variáveis de ambiente, opcionais):
   TELEGRAM_TOKEN + TELEGRAM_CHAT_ID -> mensagem num chat/grupo/canal do Telegram
-Sem nenhuma configurada, só imprime no terminal.
+Sem elas, só imprime no terminal.
 """
 import csv
 import json
@@ -95,20 +94,19 @@ def montar_mensagem(novas, cat_novo, cat_atual, busca, total, total_antes):
 
 def notificar(titulo, msg):
     print(f"== {titulo} ==\n{msg}\n")
-    topic = os.environ.get("NTFY_TOPIC")
-    if topic:
-        corpo = json.dumps({"topic": topic, "title": titulo, "message": msg[:3900],
-                            "click": SITE, "tags": ["books"]}).encode()
-        req = urllib.request.Request("https://ntfy.sh/", data=corpo,
-                                     headers={"Content-Type": "application/json"})
-        urllib.request.urlopen(req, timeout=20).read()
     token, chat = os.environ.get("TELEGRAM_TOKEN"), os.environ.get("TELEGRAM_CHAT_ID")
-    if token and chat:
-        corpo = json.dumps({"chat_id": chat, "text": f"{titulo}\n\n{msg}"[:4000],
-                            "disable_web_page_preview": True}).encode()
-        req = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendMessage",
-                                     data=corpo, headers={"Content-Type": "application/json"})
+    if not (token and chat):
+        return
+    corpo = json.dumps({"chat_id": chat, "text": f"{titulo}\n\n{msg}"[:4000],
+                        "disable_web_page_preview": True}).encode()
+    req = urllib.request.Request(f"https://api.telegram.org/bot{token}/sendMessage",
+                                 data=corpo, headers={"Content-Type": "application/json"})
+    try:
         urllib.request.urlopen(req, timeout=20).read()
+    except Exception as e:
+        # Falha no aviso não pode derrubar a run: o estado ainda precisa ser salvo,
+        # senão a próxima run baixa tudo de novo e repete as mesmas novidades.
+        print(f"::warning::Telegram falhou: {e}")
 
 
 def escrever_lista(editoras, total, agora):

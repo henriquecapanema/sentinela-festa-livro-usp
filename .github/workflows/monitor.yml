@@ -51,7 +51,6 @@ jobs:
         if: steps.periodo.outputs.ativo == 'true'
         env:
           FESTA_FLAG: 28-festa-do-livro-da-usp
-          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python monitor.py
