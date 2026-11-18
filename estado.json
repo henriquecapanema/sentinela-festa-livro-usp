@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-18T09:20-03:00",
+ "checado_em": "2026-11-18T12:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -12,6 +12,14 @@
   "aller": {
    "name": "Aller",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-514/publisher-price-list/2409d0914eb9ae4ae8082325f600bf7d5bba2dd2_lista-de-precos-padrao-28-festa-do-livro-da-usp-aller-editoraxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "anita-garibaldi": {
+   "name": "Anita Garibaldi",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-618/publisher-price-list/00fe3528a2d95ae0197457cbd7a073759c5982d4_anita-garibaldi-lista-precos-28-festa-usp-claudio-gonzalezxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "antofagica": {
+   "name": "Antofágica",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-626/publisher-price-list/f1310b9a8e5b8978130b8bf4fd3d811eb1bed89a_antofagicaxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "arquipelago": {
    "name": "Arquipélago",
@@ -28,6 +36,10 @@
   "atelie": {
    "name": "Ateliê",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-527/publisher-price-list/9f5840b8db7b3db850b1aacdd69c9f0cb9680d9f_atelie-xlsx-lista-usp.pdf"
+  },
+  "autentica-grupo": {
+   "name": "Autêntica (Grupo)",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-622/publisher-price-list/87be1c4a2b97d2a9bd2325d16701d7c9ff1a18a3_grupo-autentica-lista-de-precos-28-festa-do-livro-usp-juliana.pdf"
   },
   "autonomia-literaria": {
    "name": "Autonomia Literária",
@@ -89,6 +101,10 @@
    "name": "Caixote",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-540/publisher-price-list/01a943878cd456d6f9ae6640355d1da3ad40b2c9_lista-de-precos-padrao-28-festa-do-livro-da-usp-2026xlsx-lista-de-precos-padrao-27a-fe-1-2.pdf"
   },
+  "carambaia": {
+   "name": "Carambaia",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-612/publisher-price-list/5b55d461473bbfc5dec66877df3a4e36131688ce_editora-carambaia-carambaia.pdf"
+  },
   "casa-de-letras": {
    "name": "Casa de Letras",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-579/publisher-price-list/d301c9a851cd70d2bfbec8e9e77f629d1d0b83ec_lista-de-precos-padrao-28-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-28a-fe-comercial-casa-de-letras-e-grafica-ltda.pdf"
@@ -124,6 +140,10 @@
   "cosac": {
    "name": "Cosac",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-499/publisher-price-list/8781cf1ad36cd2c4f679f0be06493cc926931541_lista-de-precos-padrao-28a-festa-do-livro-da-usp-dione-oliveiraxlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "darkside-magnetica": {
+   "name": "DarkSide / Magnética",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-617/publisher-price-list/6cc4c7e1c4b452adec4ca985d2e9776a1275aee0_lista-de-precos-padrao-28a-festa-do-livro-da-usp-darkside-magnetica-kamilla-coriglianoxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "dba-literatura": {
    "name": "DBA Literatura",
@@ -177,6 +197,10 @@
    "name": "Edições Loyola",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-521/publisher-price-list/79eb55cee3a70873f3cd19b05c6e138390940ac6_edicoes-loyola-edicoes-loyola.pdf"
   },
+  "eduefs": {
+   "name": "Eduefs",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-615/publisher-price-list/096304c34a8cf1bdbbf08b8fd2ba0a99e2f3d78d_eduefs-28a-festa-do-livro-uspxlsx-pagina1-thais-costa-do-carmo.pdf"
+  },
   "eduel": {
    "name": "Eduel",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-588/publisher-price-list/0a4fabac61999abd7c605c78362a3c8d6e177ef7_lista-de-precos-padrao-28a-festa-do-livro-da-usp-financeiro-editora-da-uelxlsx-lista-de-precos-padrao-26a-fe.pdf"
@@ -225,6 +249,10 @@
    "name": "Fiocruz",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-575/publisher-price-list/06dcc339e1cd65728f057ccf72a6508dd6ff7c4c_lista-precos-fiocruz-usp-2026-vanessa-freitas.pdf"
   },
+  "fosforo": {
+   "name": "Fósforo",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-621/publisher-price-list/2878ed4b707b65dc8a3367f7d46d5d7057b5f33c_28a-feira-da-usp-tabela-2026-luciana-maiaxlsx-tabela-28a-festa-do-livro-da-us.pdf"
+  },
   "girassol-grupo": {
    "name": "Girassol (Grupo)",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-577/publisher-price-list/c4f4dba69cd597741076ef18f49e63dce2a3e02f_girassol-grupo-festa-do-livro-usp-2026-claudia-ayres-girassol-grupo-festa-do-livro-usp-2026-claudia-ayres.pdf"
@@ -245,9 +273,17 @@
    "name": "HarperCollins Brasil",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-502/publisher-price-list/a495e1660882f6a7b0c4e50815ea6e2d8bfa206c_lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-atualizada-1-thais-rodriguesxlsx-planilha1.pdf"
   },
+  "hedra": {
+   "name": "Hedra",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-625/publisher-price-list/9494ac7fb67e1326f5d2696c37d48aba03b1c375_catalogo-edlab-usp-departamento-comercial-planilha1.pdf"
+  },
   "hucitec": {
    "name": "Hucitec",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-483/publisher-price-list/4397d0f6444bcf3cee696dc0c276b1899d954473_hucitec.pdf"
+  },
+  "hyperion-comics": {
+   "name": "Hyperion Comics",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-613/publisher-price-list/f4b391737e3d11be9db13521696cef328ef49e53_lista-de-precos-padrao-28a-festa-do-livro-da-usp-hyperion-comics.pdf"
   },
   "ims": {
    "name": "IMS",
@@ -276,6 +312,10 @@
   "kitembo": {
    "name": "Kitembo",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-543/publisher-price-list/b8866f2e764dfd07880c7e1259c5928ddd3dfd84_kitembo-lista-de-precos-timbress-producoes.pdf"
+  },
+  "kotter-editorial": {
+   "name": "Kotter Editorial",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-616/publisher-price-list/d08b64268591e17aa09b7b22948a65e6eed05385_lista-de-precos-kotter-editorial-festa-do-livro-usp-joao-lucas-dusi.pdf"
   },
   "lavrapalavra": {
    "name": "LavraPalavra",
@@ -341,6 +381,10 @@
    "name": "Mundaréu | Manjuba",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-603/publisher-price-list/6990c70df189d928276a74e8b5cebbe727bf6d1d_mundareu-festa-da-usp-2026pdf-rafael-kalebe-1.pdf"
   },
+  "n-1-edicoes": {
+   "name": "N-1 edições",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-623/publisher-price-list/f74afc0b082f45f28a797d61efc077f69071b33e_catalogo-n-1-usp-ok-suporte-n-1-edicoes-planilha2.pdf"
+  },
   "newpop": {
    "name": "NewPOP",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-559/publisher-price-list/243bbe343d1d69fd16ba0c3edb79c23bdb53c55b_newpop-editora-pdf-newpop-editora.pdf"
@@ -377,9 +421,17 @@
    "name": "Palas Athena",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-569/publisher-price-list/ed64ea3e1a56599b4554ed5132fc8b20cf4e6c0d_lista-palas-athena-2026-palas-athena-lista-palas-athena-2026-palas-athena.pdf"
   },
+  "pallas": {
+   "name": "Pallas",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-619/publisher-price-list/64446886f87191c2c07edfacdf9ab45395399d3b_lista-de-precos-pallas-usp-2026-daniella-rietxlsx-lista-de-precos-pallas-usp.pdf"
+  },
   "panda-books": {
    "name": "Panda Books",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-533/publisher-price-list/07d19aee06ea471b8a25cfcbf3d58d0e1f304c47_panda-books-festa-da-usp-2026-mayara-meloxlsx-panda-books-010226.pdf"
+  },
+  "patua": {
+   "name": "Patuá",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-611/publisher-price-list/879bef70f8b607dc17a5fcf3f7c2c38285f6abfe_2026-lista-de-precos-padrao-28a-festa-do-livro-da-usp-pricila-gunutzmann-lista-de-precos-padrao-26a-fe.pdf"
   },
   "paulinas": {
    "name": "Paulinas",
@@ -471,7 +523,7 @@
   },
   "tabla": {
    "name": "Tabla",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-566/publisher-price-list/301275a418f278c4837eb781b84b61716989f337_lista-de-precos-padrao-28a-festa-do-livro-da-usp-juliana-demier-1.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-566/publisher-price-list/a27c7759d0e686dad335e4a4ba0447e5b081faaf_lista-de-precos-padrao-27-festa-do-livro-da-usp-2xlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "tantatinta-carlini-e-caniato": {
    "name": "TantaTinta / Carlini e Caniato",
@@ -489,6 +541,10 @@
    "name": "Terra Virgem",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-526/publisher-price-list/356cfff4115b0c9d5f21fbdfa6258331147422b5_terra-virgem-edicoes-festa-livro-usp-tabela-precos-2026-ok-jo-bertolli.pdf"
   },
+  "tinta-da-china": {
+   "name": "Tinta-da-China",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-620/publisher-price-list/c77530f92816874974cdacaee0210053ffcd3245_tinta-da-china-lista-de-precos-padrao-28a-festa-do-livro-da-usp-leandro-valente.pdf"
+  },
   "todavia": {
    "name": "todavia",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-568/publisher-price-list/cdcccc9b945af721a1fc9b92c83846707e5aab7b_todavia-lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe-clara-karepovs.pdf"
@@ -501,9 +557,17 @@
    "name": "UK'A - Arte e Literatura",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-576/publisher-price-list/aec86e2ca0e52bb2c34571da20b41a5dc9482497_uka-lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-uka.pdf"
   },
+  "uneb": {
+   "name": "Uneb",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-614/publisher-price-list/035be480e0c307b3898adf11ce3a2bd0e6f47759_052-festa-do-livro-da-usp-2026-metadados-ascom-editora-da-uneb.pdf"
+  },
   "universo-dos-livros": {
    "name": "Universo dos Livros",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-508/publisher-price-list/7c88b97a4e90eea1e9e73e26f75889c7051cb91f_titulos-usp-26-fabiana-andradexlsx-usp-2026.pdf"
+  },
+  "valentina": {
+   "name": "Valentina",
+   "price_list": ""
   },
   "via-lettera": {
    "name": "Via Lettera",
@@ -523,5 +587,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 11791
+ "total_livros": 14819
 }
