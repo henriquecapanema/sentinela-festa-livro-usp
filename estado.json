@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-18T15:20-03:00",
+ "checado_em": "2026-11-18T18:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -321,8 +321,8 @@
    "name": "Kitembo",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-543/publisher-price-list/b8866f2e764dfd07880c7e1259c5928ddd3dfd84_kitembo-lista-de-precos-timbress-producoes.pdf"
   },
-  "kotter-editorial": {
-   "name": "Kotter Editorial",
+  "kotter": {
+   "name": "Kotter",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-616/publisher-price-list/d08b64268591e17aa09b7b22948a65e6eed05385_lista-de-precos-kotter-editorial-festa-do-livro-usp-joao-lucas-dusi.pdf"
   },
   "lavrapalavra": {
@@ -475,7 +475,7 @@
   },
   "publicacoes-bbm": {
    "name": "Publicações BBM",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-534/publisher-price-list/838d1f7af035d7b9e2ea063d4a21fe0643e4143d_publicacoes-bbm-festa-2026-publicacoes-bbm-uspxlsx-lista-de-precos-padrao-26a-fe.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-534/publisher-price-list/6eb0ea4aaa1700649df72a87a1b693435e3b2ea9_bbm.pdf"
   },
   "pulo-do-gato": {
    "name": "Pulo do Gato",
@@ -496,6 +496,14 @@
   "relicario": {
    "name": "Relicário",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-563/publisher-price-list/8e475cd753ca00a3e4724630cf2df47dac0c5a17_relicario-festa-do-livro-da-usp-2026-relicario-edicoesxlsx-pagina1.pdf"
+  },
+  "revista-iea": {
+   "name": "Revista IEA",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-629/publisher-price-list/d3aefcdba08f5fb122d9037a4fb8af2993d4b764_iea-pdf.pdf"
+  },
+  "rocco": {
+   "name": "Rocco",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-609/publisher-price-list/3258277e1ccc4b274b4c9e3ee00fa8011f2ab207_lista-de-precos-padrao-28a-festa-do-livro-da-usp-waldiney-azevedoxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "seiva": {
    "name": "Seiva",
@@ -534,7 +542,7 @@
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-566/publisher-price-list/a27c7759d0e686dad335e4a4ba0447e5b081faaf_lista-de-precos-padrao-27-festa-do-livro-da-usp-2xlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "tantatinta-carlini-e-caniato": {
-   "name": "TantaTinta / Carlini e Caniato",
+   "name": "TantaTinta | Carlini e Caniato",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-565/publisher-price-list/5bba62d3c93220418df4cc8ecb9d5d6c22dcf311_tantatinta-lista-de-precos-28-festa-do-livro-da-usp-carlini-e-caniato-tantatinta.pdf"
   },
   "telos": {
@@ -595,5 +603,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 16656
+ "total_livros": 18151
 }
