@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-18T12:20-03:00",
+ "checado_em": "2026-11-18T15:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -105,6 +105,10 @@
    "name": "Carambaia",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-612/publisher-price-list/5b55d461473bbfc5dec66877df3a4e36131688ce_editora-carambaia-carambaia.pdf"
   },
+  "carochinha": {
+   "name": "Carochinha",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-607/publisher-price-list/087a2997bf896ad31807bb6449a2a23e0f5cb2bb_carochinha-comercial-carochinha-carochinha-comercial-carochinha.pdf"
+  },
   "casa-de-letras": {
    "name": "Casa de Letras",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-579/publisher-price-list/d301c9a851cd70d2bfbec8e9e77f629d1d0b83ec_lista-de-precos-padrao-28-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-28a-fe-comercial-casa-de-letras-e-grafica-ltda.pdf"
@@ -124,6 +128,10 @@
   "ciranda-cultural-grupo": {
    "name": "Ciranda Cultural (Grupo)",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-552/publisher-price-list/4088ada5e464aa0ec8c7856bbdb3b700287ad92a_grupo-ciranda-cultural-gustavo-henrique-de-souza-mingues.pdf"
+  },
+  "com-arte": {
+   "name": "Com-Arte",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-627/publisher-price-list/7d2e7e57554a3e683104c8111c502b130175813b_lista-de-precos-festa-do-livro-2026-com-arte.pdf"
   },
   "contracorrente": {
    "name": "Contracorrente",
@@ -587,5 +595,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 14819
+ "total_livros": 16656
 }
