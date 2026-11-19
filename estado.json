@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-19T09:20-03:00",
+ "checado_em": "2026-11-19T12:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -79,7 +79,7 @@
   },
   "bazar-do-tempo": {
    "name": "Bazar do Tempo",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-491/publisher-price-list/99f6930aacf7d1aa3472637276ebb7d7d80ebd99_xls-2026-11-03-21-40xlsx-vlx-product-metadata-1-tati-gadani-comercial-bazar-do-tempo.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-491/publisher-price-list/6e1e0a7d7b75227d8b5ea9de569e473d29c15844_bazar-do-tempoxlsx-vlx-product-metadata.pdf"
   },
   "bei": {
    "name": "BEĨ",
@@ -92,6 +92,14 @@
   "blucher": {
    "name": "Blucher",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-578/publisher-price-list/266a081cecc486f64044b6ea5daf9b41139da303_lista-de-precos-feira-usp-2026-blucher-excel-fernanda-rentexlsx-lista-de-precos-padrao-26a-fe.pdf"
+  },
+  "boitata": {
+   "name": "Boitatá",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-635/publisher-price-list/899cc37dd41fe4fc659e430e1dd990293969175b_boitata-excel-boitempo-vendasxlsx-planilha1.pdf"
+  },
+  "boitempo": {
+   "name": "Boitempo",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-634/publisher-price-list/1f0be63aee353570ebbed9176d6fec71ad3eeeca_boitempo-excel-boitempo-vendasxlsx-lista-de-precos-padrao-28a-fe.pdf"
   },
   "book-one": {
    "name": "Book One",
@@ -371,7 +379,7 @@
   },
   "melhoramentos": {
    "name": "Melhoramentos",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-544/publisher-price-list/f4c7a2e3c766fafe4a30483caf56ee203315ee07_lista-de-preco-usp26-dani-raposo-lista-de-preco-usp26-dani-raposo.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-544/publisher-price-list/6e0b7acb8dbe6b040e643449f9b5ed822b044f6b_melhoramentosxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "mil-caramiolas": {
    "name": "Mil Caramiolas",
@@ -543,7 +551,7 @@
   },
   "solaris": {
    "name": "Solaris",
-   "price_list": ""
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-591/publisher-price-list/72e0a2e3888bf9d672fef201b6d935e77fe8f35e_lista-de-precos-padrao-28a-festa-do-livro-da-usp-1-carlos-cornejoxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "summus-grupo": {
    "name": "Summus (Grupo)",
@@ -627,5 +635,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 18749
+ "total_livros": 20522
 }
