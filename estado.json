@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-21T15:20-03:00",
+ "checado_em": "2026-11-21T18:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -215,7 +215,7 @@
   },
   "ed-ufv": {
    "name": "Ed. UFV",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-602/publisher-price-list/6da7cb67ffed7fcd3e890fda5e453f4cfbfd47d6_lista-titulos-28a-festa-do-livro-da-usp-atendimento-e-commerce-editora-ufv.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-602/publisher-price-list/ed8135bed80eee1db87c3f66eb11de952d62d8e9_editora-ufv.pdf"
   },
   "ed-unb": {
    "name": "Ed. UnB",
@@ -367,7 +367,7 @@
   },
   "letra-selvagem": {
    "name": "Letra Selvagem",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-492/publisher-price-list/0bf324afdd258e403a0ebed3740becaf1e3249c0_lista-de-precos-2026-feira-usp-28a-editora-e-livraria-letra-selvagem.pdf"
+   "price_list": ""
   },
   "livros-da-matriz": {
    "name": "Livros da Matriz",
@@ -435,7 +435,7 @@
   },
   "newpop": {
    "name": "NewPOP",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-559/publisher-price-list/243bbe343d1d69fd16ba0c3edb79c23bdb53c55b_newpop-editora-pdf-newpop-editora.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-559/publisher-price-list/3f80a3e127aed9664460227089e432851bb69812_newpop-editora-pdf.pdf"
   },
   "nos": {
    "name": "Nós",
@@ -555,7 +555,7 @@
   },
   "seja-breve": {
    "name": "Seja Breve",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-564/publisher-price-list/a83bdf21f9ceae2d6d526f067114a63ba13d3044_seja-breve-festa-do-livro-usp-26-bernardo-ajzenberg.pdf"
+   "price_list": ""
   },
   "sesc-sp": {
    "name": "Sesc SP",
@@ -619,7 +619,7 @@
   },
   "uneb": {
    "name": "Uneb",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-614/publisher-price-list/035be480e0c307b3898adf11ce3a2bd0e6f47759_052-festa-do-livro-da-usp-2026-metadados-ascom-editora-da-uneb.pdf"
+   "price_list": ""
   },
   "universo-dos-livros": {
    "name": "Universo dos Livros",
@@ -655,5 +655,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 25123
+ "total_livros": 26014
 }
