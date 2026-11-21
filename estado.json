@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-21T12:20-03:00",
+ "checado_em": "2026-11-21T15:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -303,7 +303,7 @@
   },
   "glac": {
    "name": "GLAC",
-   "price_list": ""
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-600/publisher-price-list/4ca40233f04c55336326156d468f4edcf57fbb4b_glac-feira-da-usp-2026.pdf"
   },
   "global": {
    "name": "Global",
@@ -529,6 +529,10 @@
    "name": "Quina",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-503/publisher-price-list/fe7ba8b18e1fa90d71ca5230dfb4078649148273_lista-de-precos-padrao-28a-festa-do-livro-da-usp-quina-editora-quina-editoraxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
+  "record-grupo": {
+   "name": "Record (Grupo)",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-640/publisher-price-list/76db0abf9c818c8f28a01b66e9ca5ad4509e72f6_grupo-editorial-record-fagner-castro.pdf"
+  },
   "reformatorio": {
    "name": "Reformatório",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-490/publisher-price-list/b534a31068a5b2acc09cd454077c4c8b168a9d4d_festa-da-usp-lista-de-precos-xls-2026-01-11-reformatorio-pasavento-nocelli-editora-reformatorioxlsx-vlx-product-metadata.pdf"
@@ -623,7 +627,7 @@
   },
   "valentina": {
    "name": "Valentina",
-   "price_list": ""
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-624/publisher-price-list/7dde1daf5cd74efcae23e7e3de3ceb850cd6f384_tab-preco-com-url1-1.pdf"
   },
   "via-lettera": {
    "name": "Via Lettera",
@@ -651,5 +655,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 24279
+ "total_livros": 25123
 }
