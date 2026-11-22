@@ -1,6 +1,6 @@
 # Editoras — 28-festa-do-livro-da-usp
 
-Atualizado em 22/11/2026 12:20 (horário de Brasília). 163 editoras, 158 com catálogo, 26014 livros cadastrados no site.
+Atualizado em 22/11/2026 15:20 (horário de Brasília). 163 editoras, 158 com catálogo, 26468 livros cadastrados no site.
 
 | Editora | Catálogo | Livros cadastrados no site |
 |---|---|---|
@@ -57,7 +57,7 @@ Atualizado em 22/11/2026 12:20 (horário de Brasília). 163 editoras, 158 com ca
 | Ed. UFMG | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-547/publisher-price-list/9ee61cbe8fd056babd870688e6c3398d8e3ba067_editora-ufmg-planilha-metadados-28-festa-do-livro-da-usp-angela-santos.pdf) | [245](livros/ed-ufmg.csv) |
 | Ed. UFPR | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-507/publisher-price-list/9fc395898c7a175f00d1a59a1476d176f29835fc_lista-de-precos-28a-festa-do-livro-da-usp-editora-ufpr-valdir-pinheiro-juniorxlsx-lista-de-precos-padrao-26a-fe.pdf) | [133](livros/ed-ufpr.csv) |
 | Ed. UFSC | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-511/publisher-price-list/86eedcd8c69246cfc6f53367561b0275a5ab4c99_edufsc-lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe.pdf) | [297](livros/ed-ufsc.csv) |
-| Ed. UFV | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-602/publisher-price-list/ed8135bed80eee1db87c3f66eb11de952d62d8e9_editora-ufv.pdf) | — |
+| Ed. UFV | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-602/publisher-price-list/ed8135bed80eee1db87c3f66eb11de952d62d8e9_editora-ufv.pdf) | [19](livros/ed-ufv.csv) |
 | Ed. UnB | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-598/publisher-price-list/789992e72b1aae8e161d2ee89ebefce0a7296a94_editora-unb-lista-de-precos-padrao-28a-festa-do-livro-da-usp-editora-unb.pdf) | [245](livros/ed-unb.csv) |
 | Ed. Unesp | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-548/publisher-price-list/23950afa0c8153b7357b87c3b5b136db8d9ec6a4_festa-da-usp-2026-mariana-buckxlsx-pedidos.pdf) | [693](livros/ed-unesp.csv) |
 | Ed. Unifesp | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-477/publisher-price-list/af446a9e2fc074d5b359a100a513d3ffa54bd3fe_lista-de-precos-padrao-28-festa-do-livro-da-usp-administrativo-editora-unifesp.pdf) | [201](livros/ed-unifesp.csv) |
@@ -79,7 +79,7 @@ Atualizado em 22/11/2026 12:20 (horário de Brasília). 163 editoras, 158 com ca
 | Funilaria | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-610/publisher-price-list/8d3f7e4488f27e39296bce349770817e3d175745_funilaria-28a-festa-do-livro-da-usp-1xlsx-lista-de-precos-padrao-28a-fe.pdf) | [33](livros/funilaria.csv) |
 | Fósforo | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-621/publisher-price-list/2878ed4b707b65dc8a3367f7d46d5d7057b5f33c_28a-feira-da-usp-tabela-2026-luciana-maiaxlsx-tabela-28a-festa-do-livro-da-us.pdf) | [269](livros/fosforo.csv) |
 | Girassol (Grupo) | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-577/publisher-price-list/c4f4dba69cd597741076ef18f49e63dce2a3e02f_girassol-grupo-festa-do-livro-usp-2026-claudia-ayres-girassol-grupo-festa-do-livro-usp-2026-claudia-ayres.pdf) | [488](livros/girassol-grupo.csv) |
-| GLAC | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-600/publisher-price-list/4ca40233f04c55336326156d468f4edcf57fbb4b_glac-feira-da-usp-2026.pdf) | — |
+| GLAC | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-600/publisher-price-list/4ca40233f04c55336326156d468f4edcf57fbb4b_glac-feira-da-usp-2026.pdf) | [30](livros/glac.csv) |
 | Global | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-581/publisher-price-list/7ebc5ee447c40c0cb7633705e8f6df25b8068b68_global-editora-lista-de-precos-padrao-28-festa-do-livro-da-usp-ok-global-editora.pdf) | [640](livros/global.csv) |
 | Grua | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-485/publisher-price-list/d11ff1313d55c0b1d5452bdb53845d71b1b09e1b_lista-de-precos-padrao-28a-festa-do-livro-da-usp-grua-livros.pdf) | [102](livros/grua.csv) |
 | HarperCollins Brasil | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-502/publisher-price-list/a495e1660882f6a7b0c4e50815ea6e2d8bfa206c_lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-atualizada-1-thais-rodriguesxlsx-planilha1.pdf) | [415](livros/harpercollins-brasil.csv) |
@@ -112,7 +112,7 @@ Atualizado em 22/11/2026 12:20 (horário de Brasília). 163 editoras, 158 com ca
 | Movimento Neomarginal | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-498/publisher-price-list/81be45ed320492824d12e459b79e0ba73ba2aa1a_movimento-neomarginal-lista-de-precos-padrao-28a-festa-do-livro-da-usp-vitor-mirandaxlsx-lista-de-precos-padrao-26a-fe.pdf) | [22](livros/movimento-neomarginal.csv) |
 | Mundaréu | Manjuba | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-603/publisher-price-list/6990c70df189d928276a74e8b5cebbe727bf6d1d_mundareu-festa-da-usp-2026pdf-rafael-kalebe-1.pdf) | [49](livros/mundareu-manjuba.csv) |
 | N-1 edições | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-623/publisher-price-list/f74afc0b082f45f28a797d61efc077f69071b33e_catalogo-n-1-usp-ok-suporte-n-1-edicoes-planilha2.pdf) | [158](livros/n-1-edicoes.csv) |
-| NewPOP | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-559/publisher-price-list/3f80a3e127aed9664460227089e432851bb69812_newpop-editora-pdf.pdf) | — |
+| NewPOP | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-559/publisher-price-list/3f80a3e127aed9664460227089e432851bb69812_newpop-editora-pdf.pdf) | [405](livros/newpop.csv) |
 | Nova Fronteira | Trama | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-560/publisher-price-list/a36a8a21d3f03c2651a21d25e530cd3bdb7c6b35_editora-nova-fornteira-mariana-brandaoxlsx-planilha1.pdf) | [166](livros/nova-fronteira-trama.csv) |
 | nVersos | — | [60](livros/nversos.csv) |
 | Nós | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-515/publisher-price-list/6537aa647baa009c36551e7d9788a16dfc751cae_xls-2026-11-05-15-45-gabriel-paulinoxlsx-vlx-product-metadata.pdf) | [141](livros/nos.csv) |
@@ -135,7 +135,7 @@ Atualizado em 22/11/2026 12:20 (horário de Brasília). 163 editoras, 158 com ca
 | Pulo do Gato | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-487/publisher-price-list/dd0d5536f475d00a7936f6af0a79c7f2f6bea446_lista-de-precos-pulo-do-gato-editora-28a-festa-do-livro-da-uspxlsx-lista-de-precos-padrao-26a-fe.pdf) | [86](livros/pulo-do-gato.csv) |
 | Quatro Cantos | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-536/publisher-price-list/7086a8179796176ed405844bc5a670dbadf7b6c4_quatro-cantos1-rosana-martinelli-quatro-cantos1-rosana-martinelli.pdf) | [49](livros/quatro-cantos.csv) |
 | Quina | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-503/publisher-price-list/fe7ba8b18e1fa90d71ca5230dfb4078649148273_lista-de-precos-padrao-28a-festa-do-livro-da-usp-quina-editora-quina-editoraxlsx-lista-de-precos-padrao-26a-fe.pdf) | [21](livros/quina.csv) |
-| Record (Grupo) | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-640/publisher-price-list/76db0abf9c818c8f28a01b66e9ca5ad4509e72f6_grupo-editorial-record-fagner-castro.pdf) | [796](livros/record-grupo.csv) |
+| Record (Grupo) | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-641/publisher-price-list/2a95df0e4725faebdfd9aa39f173a20862bb53b8_grupo-editorial-record-fagner-castroxlsx-lista-de-precos-padrao-26a-fe.pdf) | [796](livros/record-grupo.csv) |
 | Reformatório | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-490/publisher-price-list/b534a31068a5b2acc09cd454077c4c8b168a9d4d_festa-da-usp-lista-de-precos-xls-2026-01-11-reformatorio-pasavento-nocelli-editora-reformatorioxlsx-vlx-product-metadata.pdf) | [209](livros/reformatorio.csv) |
 | Relicário | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-563/publisher-price-list/8e475cd753ca00a3e4724630cf2df47dac0c5a17_relicario-festa-do-livro-da-usp-2026-relicario-edicoesxlsx-pagina1.pdf) | — |
 | Revista IEA | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-629/publisher-price-list/d3aefcdba08f5fb122d9037a4fb8af2993d4b764_iea-pdf.pdf) | [19](livros/revista-iea.csv) |

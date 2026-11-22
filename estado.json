@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-22T12:20-03:00",
+ "checado_em": "2026-11-22T15:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -531,7 +531,7 @@
   },
   "record-grupo": {
    "name": "Record (Grupo)",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-640/publisher-price-list/76db0abf9c818c8f28a01b66e9ca5ad4509e72f6_grupo-editorial-record-fagner-castro.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-641/publisher-price-list/2a95df0e4725faebdfd9aa39f173a20862bb53b8_grupo-editorial-record-fagner-castroxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "reformatorio": {
    "name": "Reformatório",
@@ -655,5 +655,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 26014
+ "total_livros": 26468
 }
