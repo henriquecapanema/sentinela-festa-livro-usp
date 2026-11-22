@@ -1,6 +1,6 @@
 # Editoras — 28-festa-do-livro-da-usp
 
-Atualizado em 22/11/2026 15:20 (horário de Brasília). 163 editoras, 158 com catálogo, 26468 livros cadastrados no site.
+Atualizado em 22/11/2026 18:20 (horário de Brasília). 163 editoras, 158 com catálogo, 26467 livros cadastrados no site.
 
 | Editora | Catálogo | Livros cadastrados no site |
 |---|---|---|
@@ -67,7 +67,7 @@ Atualizado em 22/11/2026 15:20 (horário de Brasília). 163 editoras, 158 com ca
 | Eduem | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-523/publisher-price-list/67c40582331224edbb195ce3c16edd7b3aaef5b4_lista-de-precos-padrao-28a-festa-do-livro-da-usp-pdf-marketing-divisao-de-marketing-eduem.pdf) | [150](livros/eduem.csv) |
 | EdUFSCar | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-510/publisher-price-list/aed404f891a61bb354af192a10c783854114cf78_listagem-edufscar-28a-festa-do-livro-da-usp-jessica-di-lorenzo-melloxlsx-lista-de-precos-padrao-26a-fe.pdf) | [100](livros/edufscar.csv) |
 | EDUNILA | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-636/publisher-price-list/80e78619615cd04db53c07745af03e30bfe70322_lista-de-precos-padrao-28a-festa-do-livro-usp-atualizada-edunilaxlsx-lista-de-precos-28a-festa-ricardo-fernando-da-silva-ramos.pdf) | [11](livros/edunila.csv) |
-| Edusp | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-473/publisher-price-list/b739f646c2d459272655970a398f9cca817fd514_lista-de-precos-festa-do-livro-2026-edusp-alfabeticaxlsx-planilha1.pdf) | [1117](livros/edusp.csv) |
+| Edusp | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-473/publisher-price-list/7bbb03b26170c31666bc63348ab741f3f3220079_lista-de-precos-festa-do-livro-2026-edusp-alfabetica.pdf) | [1116](livros/edusp.csv) |
 | Elefante | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-584/publisher-price-list/afcb5352e89ca850eaed8be4309886e2e881a0fe_divulgacao-elefante-usp-2026-aline-tieme-planilha1.pdf) | [131](livros/elefante.csv) |
 | Ercolano | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-550/publisher-price-list/3830703f48909e9f24ca5307b4f3e2dc80112365_lista-de-precos-padrao-28a-festa-do-livro-da-usp-clau-naoumxlsx-lista-de-precos-padrao-26a-fe.pdf) | [34](livros/ercolano.csv) |
 | Escala | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-506/publisher-price-list/7e0f83d7b88bfd038d5268e7035d49717fcb945b_copia-de-lista-de-precos-padrao-raphaela-marchiorato-carvalhoxlsx-lista-de-precos-padrao-26a-fe.pdf) | [111](livros/escala.csv) |

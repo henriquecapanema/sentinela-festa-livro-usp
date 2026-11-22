@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-22T15:20-03:00",
+ "checado_em": "2026-11-22T18:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -255,7 +255,7 @@
   },
   "edusp": {
    "name": "Edusp",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-473/publisher-price-list/b739f646c2d459272655970a398f9cca817fd514_lista-de-precos-festa-do-livro-2026-edusp-alfabeticaxlsx-planilha1.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-473/publisher-price-list/7bbb03b26170c31666bc63348ab741f3f3220079_lista-de-precos-festa-do-livro-2026-edusp-alfabetica.pdf"
   },
   "elefante": {
    "name": "Elefante",
@@ -655,5 +655,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 26468
+ "total_livros": 26467
 }
