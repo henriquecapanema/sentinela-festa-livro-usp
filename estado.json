@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-23T09:20-03:00",
+ "checado_em": "2026-11-23T12:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -483,7 +483,7 @@
   },
   "paulinas": {
    "name": "Paulinas",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-562/publisher-price-list/1714821083d4b7fa938ac3b4fec5a49d910d8e97_lista-de-precos-padrao-28a-festa-do-livro-da-usp-paulinas-editora-ednaldo-bispo.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-562/publisher-price-list/692e38a6a2cd2664954e2ff99670f093501b11fe_lista-de-precos-padrao-28a-festa-do-livro-da-usp-paulinas-editora.pdf"
   },
   "pedrazul-grupo": {
    "name": "Pedrazul (Grupo)",
@@ -659,5 +659,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 26531
+ "total_livros": 26523
 }
