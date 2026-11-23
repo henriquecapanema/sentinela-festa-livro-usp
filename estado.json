@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-22T21:20-03:00",
+ "checado_em": "2026-11-23T09:20-03:00",
  "editoras": {
   "34-editora": {
    "name": "34 Editora",
@@ -573,6 +573,10 @@
    "name": "Solaris",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-591/publisher-price-list/72e0a2e3888bf9d672fef201b6d935e77fe8f35e_lista-de-precos-padrao-28a-festa-do-livro-da-usp-1-carlos-cornejoxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
+  "solisluna": {
+   "name": "Solisluna",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-642/publisher-price-list/a23c177b12bd8ee0444386d1e0d2a88431e8c5f3_solisluna-price-list-festa-usp-2026-kin-guerra.pdf"
+  },
   "summus-grupo": {
    "name": "Summus (Grupo)",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-479/publisher-price-list/f3192841817d9584aafcc452b2b3231f13f5ceec_grupo-summus-mildes-mota.pdf"
@@ -655,5 +659,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 26467
+ "total_livros": 26531
 }

@@ -1,6 +1,6 @@
 # Editoras — 28-festa-do-livro-da-usp
 
-Atualizado em 22/11/2026 21:20 (horário de Brasília). 163 editoras, 158 com catálogo, 26467 livros cadastrados no site.
+Atualizado em 23/11/2026 09:20 (horário de Brasília). 164 editoras, 159 com catálogo, 26531 livros cadastrados no site.
 
 | Editora | Catálogo | Livros cadastrados no site |
 |---|---|---|
@@ -146,6 +146,7 @@ Atualizado em 22/11/2026 21:20 (horário de Brasília). 163 editoras, 158 com ca
 | Sisko | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-475/publisher-price-list/0b002256fa72754bd46a27b14ca3e73aca2b4234_sisko-editora-lista-de-livros-2026xlsx-sisko-editora-lista-de-livros.pdf) | [19](livros/sisko.csv) |
 | Sobinfluencia | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-585/publisher-price-list/86846360cbd8ece81c0cef9a5724697a53f7738c_lista-de-precos-padrao-28a-festa-do-livro-da-usp-comercial-sobinfluencia-lista-de-precos-padrao-26a-fe.pdf) | [33](livros/sobinfluencia.csv) |
 | Solaris | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-591/publisher-price-list/72e0a2e3888bf9d672fef201b6d935e77fe8f35e_lista-de-precos-padrao-28a-festa-do-livro-da-usp-1-carlos-cornejoxlsx-lista-de-precos-padrao-26a-fe.pdf) | [19](livros/solaris.csv) |
+| Solisluna | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-642/publisher-price-list/a23c177b12bd8ee0444386d1e0d2a88431e8c5f3_solisluna-price-list-festa-usp-2026-kin-guerra.pdf) | [64](livros/solisluna.csv) |
 | Summus (Grupo) | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-479/publisher-price-list/f3192841817d9584aafcc452b2b3231f13f5ceec_grupo-summus-mildes-mota.pdf) | [402](livros/summus-grupo.csv) |
 | Sundermann | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-587/publisher-price-list/ccff9c42074ae51289cf2c159ecdf0233eacc3ae_lista-de-precos-padrao-28a-festa-do-livro-da-usp-gabriel-da-silva-amenorxlsx-lista-de-precos-padrao-26a-fe.pdf) | [68](livros/sundermann.csv) |
 | Tabla | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-566/publisher-price-list/c7d734cd45a9b44ccc80f207ccf6b4d8270f24f7_lista-de-precos-padrao-28a-festa-do-livro-da-usp-xlsx-lista-de-precos-padrao-26a-fe.pdf) | [41](livros/tabla.csv) |
