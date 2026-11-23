@@ -140,12 +140,21 @@ def livros_por_arquivo():
 
 def salvar_livros(editoras, total):
     """Baixa a busca inteira da API e grava um CSV por editora em livros/.
-    Só baixa quando o total de livros mudou, pra não martelar a API 5x por dia."""
+    Só baixa quando o total de livros mudou, pra não martelar a API 5x por dia.
+    Se a API falhar no meio, mantém os CSVs antigos e segue: o resto da rodada
+    (editoras, catálogos, estado) ainda vale, e como a soma dos CSVs continua diferente
+    do total, a próxima rodada tenta baixar de novo sozinha."""
     if sum(livros_por_arquivo().values()) == total:
         return
     slug_de = {e["name"].strip().lower(): e["url"] for e in editoras}
+    try:
+        baixados = festa.buscar_livros(max_paginas=10_000)
+    except Exception as e:
+        print(f"::warning::Download dos livros falhou ({e}); livros/ ficou como estava, "
+              "a próxima rodada tenta de novo.")
+        return
     grupos = {}
-    for b in festa.buscar_livros(max_paginas=10_000):
+    for b in baixados:
         nome = (b.get("publisher") or "").strip()
         slug = slug_de.get(nome.lower()) or slugify(nome)
         grupos.setdefault(slug, []).append(b)

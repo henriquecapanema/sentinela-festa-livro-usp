@@ -21,6 +21,8 @@ GitHub Actions (`.github/workflows/monitor.yml`), às 7:37, 10:37, 13:37, 16:37 
 
 O monitor roda até **29/11/2026** (`ULTIMO_DIA` no workflow). Na primeira rodada depois disso ele manda um aviso no Telegram e se desliga sozinho. Pra religar: aba **Actions** → **Enable workflow** (e ajuste `ULTIMO_DIA`).
 
+Se a API da Edusp falhar (ela devolve 500 de vez em quando, principalmente enquanto cadastram livros), cada pedido é tentado até 5 vezes, com esperas de 5, 15, 30 e 60 s. Se mesmo assim o download dos livros cair no meio, a rodada não falha: mantém `livros/` como estava, salva o resto (editoras, catálogos, estado) e deixa um aviso no log; a próxima rodada tenta baixar de novo.
+
 Os avisos vão pro Telegram pelo bot **@festausp2026bot**, configurado com os secrets `TELEGRAM_TOKEN` e `TELEGRAM_CHAT_ID`. Só chega mensagem quando aparece editora nova, catálogo novo ou atualizado, ou quando livros de uma editora são cadastrados no site.
 
 ## Página (GitHub Pages)

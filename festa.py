@@ -16,17 +16,27 @@ FLAG = os.environ.get("FESTA_FLAG", "28-festa-do-livro-da-usp")
 UA = "festa-usp-monitor/1.0 (projeto pessoal; poucas requisicoes por dia)"
 
 
+TENTATIVAS = 5
+ESPERAS = (5, 15, 30, 60)  # segundos entre as tentativas
+
+
 def get_json(path, **params):
+    """GET com várias tentativas: o servidor da Edusp devolve 500 ou fica lento de vez
+    em quando (principalmente enquanto cadastram livros), e uma página ruim no meio das
+    ~270 da busca derrubava a run inteira."""
     url = f"{BASE}/{path}?{urllib.parse.urlencode(params)}"
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
-    for tentativa in range(3):
+    for tentativa in range(TENTATIVAS):
         try:
-            with urllib.request.urlopen(req, timeout=30) as r:
+            with urllib.request.urlopen(req, timeout=60) as r:
                 return json.load(r)
-        except Exception:
-            if tentativa == 2:
+        except Exception as e:
+            if tentativa == TENTATIVAS - 1:
                 raise
-            time.sleep(5 * (tentativa + 1))
+            espera = ESPERAS[min(tentativa, len(ESPERAS) - 1)]
+            print(f"{path} {params.get('page', '')}: {e} — tentando de novo em {espera}s",
+                  flush=True)
+            time.sleep(espera)
 
 
 def _paginar(path, pausa=0.5, **params):
