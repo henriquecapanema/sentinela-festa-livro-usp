@@ -25,6 +25,8 @@ Se a API da Edusp falhar (ela devolve 500 de vez em quando, principalmente enqua
 
 Os avisos vão pro Telegram pelo bot **@festausp2026bot**, configurado com os secrets `TELEGRAM_TOKEN` e `TELEGRAM_CHAT_ID`. Só chega mensagem quando aparece editora nova, catálogo novo ou atualizado, ou quando livros de uma editora são cadastrados no site.
 
+As listas feitas à mão (`livros-pdf/`) têm aviso próprio: `.github/workflows/avisar-manual.yml` roda `avisar_manual.py` a cada push na `main` que mexe em `livros-pdf/` e manda no mesmo bot quais listas entraram ou mudaram (e quantos livros). Pra avisar de algo que já foi pro repo: Actions → "Avisar listas feitas à mão" → Run workflow, com o commit de antes da mudança.
+
 ## Página (GitHub Pages)
 
 `.github/workflows/pages.yml` publica `site/` + `indice.json` no GitHub Pages quando algo em `site/` muda na `main` (ou à mão: Actions → "Publicar página" → Run workflow). Os commits do monitor não republicam e nem precisam: a página busca o índice novo no raw. Pré-requisito, uma vez só: **Settings → Pages → Source: GitHub Actions**.

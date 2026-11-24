@@ -1,0 +1,36 @@
+name: Avisar listas feitas à mão
+
+# O monitor só avisa do que muda na API da Edusp. Este avisa no Telegram quando
+# uma lista de `livros-pdf/` entra ou muda na main.
+on:
+  push:
+    branches: [main]
+    paths: ["livros-pdf/**"]
+  workflow_dispatch:
+    inputs:
+      base:
+        description: "Commit de antes da mudança (compara base..HEAD)"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  avisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Avisar no Telegram
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          BASE: ${{ inputs.base || github.event.before }}
+        run: |
+          # push que cria a branch vem com before=000…; aí compara com o commit anterior
+          if [[ -z "$BASE" || "$BASE" =~ ^0+$ ]]; then BASE="HEAD~1"; fi
+          python avisar_manual.py "$BASE" HEAD
