@@ -26,7 +26,7 @@ AQUI = pathlib.Path(__file__).parent
 SAIDA = AQUI / "indice.json"
 FONTES = (("site", AQUI / "livros"), ("pdf", AQUI / "livros-pdf"))
 # nome de editoras que só existem em `livros-pdf/` (não aparecem no site da festa)
-NOMES_EXTRA = {"boitempo": "Boitempo", "boitata": "Boitatá"}
+NOMES_EXTRA = {"boitempo": "Boitempo", "boitata": "Boitatá", "companhia-das-letras": "Companhia das Letras"}
 COLUNAS = ["editora", "titulo", "autor", "isbn13", "isbn", "assunto", "preco", "preco_feira", "link"]
 
 
