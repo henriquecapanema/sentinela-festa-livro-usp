@@ -1,6 +1,6 @@
 # Editoras — 28-festa-do-livro-da-usp
 
-Atualizado em 24/11/2026 09:20 (horário de Brasília). 175 editoras, 169 com catálogo, 29206 livros cadastrados no site.
+Atualizado em 24/11/2026 12:20 (horário de Brasília). 175 editoras, 169 com catálogo, 29210 livros cadastrados no site.
 
 | Editora | Catálogo | Livros cadastrados no site |
 |---|---|---|
@@ -41,7 +41,7 @@ Atualizado em 24/11/2026 09:20 (horário de Brasília). 175 editoras, 169 com ca
 | Caxinguelê | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-539/publisher-price-list/fc6fdade6f5a32a0e491aad7319a4c8fc6be11d7_caxinguele-lista-de-precos-28-festa-do-livro-usp-2026-aline-monteiroxlsx-lista-de-precos-caxinguele.pdf) | [37](livros/caxinguele.csv) |
 | Cintra | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-649/publisher-price-list/a97eef701b694e978c3ac83fa3f58ad29e6e4647_lista-de-precos-padrao-28-festa-do-livro-da-usp-leda-cintra-lista-de-precos-padrao-28-festa-do-livro-da-usp-leda-cintra.pdf) | [91](livros/cintra.csv) |
 | Ciranda Cultural (Grupo) | — | [943](livros/ciranda-cultural-grupo.csv) |
-| Com-Arte | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-627/publisher-price-list/7d2e7e57554a3e683104c8111c502b130175813b_lista-de-precos-festa-do-livro-2026-com-arte.pdf) | [121](livros/com-arte.csv) |
+| Com-Arte | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-627/publisher-price-list/f4b117cf7f33acbdda8c2b5c360d74091122f2fc_pedido-com-arte.pdf) | [121](livros/com-arte.csv) |
 | Conrad | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-651/publisher-price-list/b61a020258400bf3abee114a96e1c991b45ff2d9_lista-de-precos-padrao-28a-festa-do-livro-da-usp-conrad-nacional-marketing-nacionalxlsx-lista-de-precos-padrao-26a-fe.pdf) | [196](livros/conrad.csv) |
 | Contexto | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-637/publisher-price-list/50f35794f4d016f85d701ea77f14b9d5b29c5520_contexto.pdf) | [120](livros/contexto.csv) |
 | Contracorrente | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-574/publisher-price-list/2a62a300f90ccda30cd0e646537461f846d64e87_lista-de-precos-padrao-28a-festa-do-livro-da-usp-preenchida-editora-contracorrente.pdf) | [206](livros/contracorrente.csv) |
