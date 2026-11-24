@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-23T21:20-03:00",
+ "checado_em": "2026-11-24T09:20-03:00",
  "editoras": {
   "alameda": {
    "name": "Alameda",
@@ -152,6 +152,10 @@
   "com-arte": {
    "name": "Com-Arte",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-627/publisher-price-list/7d2e7e57554a3e683104c8111c502b130175813b_lista-de-precos-festa-do-livro-2026-com-arte.pdf"
+  },
+  "conrad": {
+   "name": "Conrad",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-651/publisher-price-list/b61a020258400bf3abee114a96e1c991b45ff2d9_lista-de-precos-padrao-28a-festa-do-livro-da-usp-conrad-nacional-marketing-nacionalxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "contexto": {
    "name": "Contexto",
@@ -320,6 +324,10 @@
   "global": {
    "name": "Global",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-581/publisher-price-list/7ebc5ee447c40c0cb7633705e8f6df25b8068b68_global-editora-lista-de-precos-padrao-28-festa-do-livro-da-usp-ok-global-editora.pdf"
+  },
+  "globo-livros": {
+   "name": "Globo Livros",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-551/publisher-price-list/4ad79caf6a42ad350c04863e97ee436881313640_globo-livros-lista-de-precos-padrao-28a-festa-do-livro-da-usp-excelxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "grua": {
    "name": "Grua",
@@ -525,6 +533,10 @@
    "name": "Pensamento (Grupo)",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-476/publisher-price-list/bd396764ab90b2d287225ae36116f4de9ee147a8_lista-de-precos-grupo-editorial-pensamento-28a-festa-do-livro-da-usp-daniela-liger.pdf"
   },
+  "perspectiva": {
+   "name": "Perspectiva",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-652/publisher-price-list/9678feea4be905690b3e54e4d14f77687c597a14_lista-de-precos-padrao-28a-festa-do-livro-da-usp-perpectiva-sergio-eduardo-lista-de-precos-padrao-26a-fe.pdf"
+  },
   "phorte": {
    "name": "Phorte",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-480/publisher-price-list/746cbccff71ddc90f33b2a4946dd506da57c4043_phorte-editora-lista-de-precos-28-festa-do-livro-da-usp-priscila-souza.pdf"
@@ -691,5 +703,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 28258
+ "total_livros": 29206
 }
