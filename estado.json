@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-24T15:20-03:00",
+ "checado_em": "2026-11-24T18:20-03:00",
  "editoras": {
   "alameda": {
    "name": "Alameda",
@@ -397,6 +397,10 @@
    "name": "Lote 42",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-556/publisher-price-list/e366cb361df076d3a586d6935d3914283fd77289_lista-de-precos-padrao-28a-festa-do-livro-da-usp-editora-lote-42xlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
+  "lpm": {
+   "name": "L&PM",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-653/publisher-price-list/5d41fa2ac5f6631485bb9c5d5b267e610cf4517d_lista-de-precos-padrao-28a-festa-do-livro-da-usp-vendas2-lpm-editores.pdf"
+  },
   "lvm": {
    "name": "LVM",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-557/publisher-price-list/5646965f625e1a40ef8ff310d88b44bbb485d9fc_lista-de-precos-padrao-csv-28a-festa-do-livro-da-usp-thiago-massarixlsx-lista-de-precos-padrao-csv-2.pdf"
@@ -703,5 +707,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 29210
+ "total_livros": 29912
 }
