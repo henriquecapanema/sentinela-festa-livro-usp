@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-25T12:20-03:00",
+ "checado_em": "2026-11-25T15:20-03:00",
  "editoras": {
   "alameda": {
    "name": "Alameda",
@@ -152,6 +152,10 @@
   "com-arte": {
    "name": "Com-Arte",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-627/publisher-price-list/f4b117cf7f33acbdda8c2b5c360d74091122f2fc_pedido-com-arte.pdf"
+  },
+  "companhia-das-letras": {
+   "name": "Companhia das Letras",
+   "price_list": ""
   },
   "conrad": {
    "name": "Conrad",
@@ -399,7 +403,7 @@
   },
   "lpm": {
    "name": "L&PM",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-653/publisher-price-list/5d41fa2ac5f6631485bb9c5d5b267e610cf4517d_lista-de-precos-padrao-28a-festa-do-livro-da-usp-vendas2-lpm-editores.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-653/publisher-price-list/a543e9207acf9f695ad011312eb34d101bfd0410_lista-de-precos-padrao-28a-festa-do-livro-da-usp-vendas2-lpm-editores.pdf"
   },
   "lvm": {
    "name": "LVM",
@@ -407,7 +411,7 @@
   },
   "male": {
    "name": "Malê",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-639/publisher-price-list/32f0974dd0ffac3d0912ebea60efb84a0d5c5eba_lista-de-precos-male-28a-festa-do-livro-da-usp-editora-male.pdf"
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-639/publisher-price-list/8ef6e642c5c3a6816a54f8ba74ebbece3534efae_lista-de-precos-male-28a-festa-do-livro-da-usp-1.pdf"
   },
   "maria-antonia-edicoes-gmarx": {
    "name": "Maria Antonia Edições - GMARX",
@@ -704,6 +708,10 @@
   "zapata": {
    "name": "Zapata",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-633/publisher-price-list/61255824ebe92b54a2fe709d57b7546218ca0bf6_zapata-festa-livro-usp-26-zapata-edicoes.pdf"
+  },
+  "zouk": {
+   "name": "Zouk",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-655/publisher-price-list/eab303e81082af0996c1cbdf3d1022e740daeec3_feira-usp-2026-joao-ricardo-xavier.pdf"
   }
  },
  "flag": "28-festa-do-livro-da-usp",

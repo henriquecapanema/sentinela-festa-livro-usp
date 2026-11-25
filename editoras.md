@@ -1,6 +1,6 @@
 # Editoras — 28-festa-do-livro-da-usp
 
-Atualizado em 25/11/2026 12:20 (horário de Brasília). 176 editoras, 170 com catálogo, 29912 livros cadastrados no site.
+Atualizado em 25/11/2026 15:20 (horário de Brasília). 178 editoras, 171 com catálogo, 29912 livros cadastrados no site.
 
 | Editora | Catálogo | Livros cadastrados no site |
 |---|---|---|
@@ -42,6 +42,7 @@ Atualizado em 25/11/2026 12:20 (horário de Brasília). 176 editoras, 170 com ca
 | Cintra | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-649/publisher-price-list/a97eef701b694e978c3ac83fa3f58ad29e6e4647_lista-de-precos-padrao-28-festa-do-livro-da-usp-leda-cintra-lista-de-precos-padrao-28-festa-do-livro-da-usp-leda-cintra.pdf) | [92](livros/cintra.csv) |
 | Ciranda Cultural (Grupo) | — | [943](livros/ciranda-cultural-grupo.csv) |
 | Com-Arte | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-627/publisher-price-list/f4b117cf7f33acbdda8c2b5c360d74091122f2fc_pedido-com-arte.pdf) | [128](livros/com-arte.csv) |
+| Companhia das Letras | — | — |
 | Conrad | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-651/publisher-price-list/b61a020258400bf3abee114a96e1c991b45ff2d9_lista-de-precos-padrao-28a-festa-do-livro-da-usp-conrad-nacional-marketing-nacionalxlsx-lista-de-precos-padrao-26a-fe.pdf) | [194](livros/conrad.csv) |
 | Contexto | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-637/publisher-price-list/50f35794f4d016f85d701ea77f14b9d5b29c5520_contexto.pdf) | [120](livros/contexto.csv) |
 | Contracorrente | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-574/publisher-price-list/2a62a300f90ccda30cd0e646537461f846d64e87_lista-de-precos-padrao-28a-festa-do-livro-da-usp-preenchida-editora-contracorrente.pdf) | [206](livros/contracorrente.csv) |
@@ -99,13 +100,13 @@ Atualizado em 25/11/2026 12:20 (horário de Brasília). 176 editoras, 170 com ca
 | Jujuba | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-524/publisher-price-list/671b26463e3059100fccf5ddcc28610a8c189156_jujuba-editora.pdf) | [60](livros/jujuba.csv) |
 | Kitembo | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-543/publisher-price-list/f5ed92f80038ef320ac41ac6905284b2e560f7a4_kitembo-lista-de-precosxlsx-lista-de-precos-padrao-26a-fe.pdf) | [15](livros/kitembo.csv) |
 | Kotter | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-616/publisher-price-list/d08b64268591e17aa09b7b22948a65e6eed05385_lista-de-precos-kotter-editorial-festa-do-livro-usp-joao-lucas-dusi.pdf) | [61](livros/kotter.csv) |
-| L&PM | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-653/publisher-price-list/5d41fa2ac5f6631485bb9c5d5b267e610cf4517d_lista-de-precos-padrao-28a-festa-do-livro-da-usp-vendas2-lpm-editores.pdf) | [702](livros/lpm.csv) |
+| L&PM | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-653/publisher-price-list/a543e9207acf9f695ad011312eb34d101bfd0410_lista-de-precos-padrao-28a-festa-do-livro-da-usp-vendas2-lpm-editores.pdf) | [702](livros/lpm.csv) |
 | LavraPalavra | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-555/publisher-price-list/90e79c165d2a80d1ee5eb72a730d610a89199532_relacao-de-livros-e-precos-lavrapalavra-pagina1-1-gabriel-landi-fazzio.pdf) | — |
 | Letra Selvagem | — | — |
 | Livros da Matriz | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-493/publisher-price-list/dc8f3485722dfa5059e67dc7225368567aa97c29_lista-de-precos-livros-da-matriz-28a-festa-do-livro-da-usp-aluizio-leitexlsx-lista-de-precos-padrao-26a-fe.pdf) | [33](livros/livros-da-matriz.csv) |
 | Lote 42 | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-556/publisher-price-list/e366cb361df076d3a586d6935d3914283fd77289_lista-de-precos-padrao-28a-festa-do-livro-da-usp-editora-lote-42xlsx-lista-de-precos-padrao-26a-fe.pdf) | — |
 | LVM | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-557/publisher-price-list/5646965f625e1a40ef8ff310d88b44bbb485d9fc_lista-de-precos-padrao-csv-28a-festa-do-livro-da-usp-thiago-massarixlsx-lista-de-precos-padrao-csv-2.pdf) | — |
-| Malê | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-639/publisher-price-list/32f0974dd0ffac3d0912ebea60efb84a0d5c5eba_lista-de-precos-male-28a-festa-do-livro-da-usp-editora-male.pdf) | [102](livros/male.csv) |
+| Malê | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-639/publisher-price-list/8ef6e642c5c3a6816a54f8ba74ebbece3534efae_lista-de-precos-male-28a-festa-do-livro-da-usp-1.pdf) | [102](livros/male.csv) |
 | Maria Antonia Edições - GMARX | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-522/publisher-price-list/4f4808bf827404d5e0d0ae53ae04382116005596_flusp-maria-antonia-edicoes-2026pdf-maria-antonia-edicoes.pdf) | [10](livros/maria-antonia-edicoes-gmarx.csv) |
 | Martins Fontes - Selo Martins | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-512/publisher-price-list/3a7d57950f0441d27aacb47d109052edfbdb319a_lista-de-precos-padrao-28a-festa-do-livro-da-usp-2026-alterada-cida-sousaxlsx-lista-de-precos-padrao-28a-fe.pdf) | [678](livros/martins-fontes-selo-martins.csv) |
 | MASP | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-644/publisher-price-list/4d98cc2fe54428b3d3b8bc144051e0f983730734_planilha-usp-preencher-paisagem-distribuidoraxlsx-planilha1.pdf) | [40](livros/masp.csv) |
@@ -179,4 +180,5 @@ Atualizado em 25/11/2026 12:20 (horário de Brasília). 176 editoras, 170 com ca
 | Zagodoni | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-567/publisher-price-list/ba4aefd49ce852446a5b2007fa02433c9c70c5f8_tabela-precos-zagodoni-2026-adriano-zago.pdf) | [161](livros/zagodoni.csv) |
 | Zain | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-478/publisher-price-list/693beaeb10c3dfc8af876dd4880f911cc10894f3_lista-de-precos-padrao-28a-festa-do-livro-da-usp-editora-zainxlsx-lista-de-precos-padrao-26a-fe.pdf) | [16](livros/zain.csv) |
 | Zapata | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-633/publisher-price-list/61255824ebe92b54a2fe709d57b7546218ca0bf6_zapata-festa-livro-usp-26-zapata-edicoes.pdf) | [31](livros/zapata.csv) |
+| Zouk | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-655/publisher-price-list/eab303e81082af0996c1cbdf3d1022e740daeec3_feira-usp-2026-joao-ricardo-xavier.pdf) | — |
 | ÔZé | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-561/publisher-price-list/35dfd1a44a5a02e7aabcd7862634bbbcf70193bf_oze-lista-de-precos-28-festa-do-livro-da-usp-2026-oze-editoraxlsx-pagina1.pdf) | [67](livros/oze.csv) |
