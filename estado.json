@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-25T15:20-03:00",
+ "checado_em": "2026-11-25T18:20-03:00",
  "editoras": {
   "alameda": {
    "name": "Alameda",
@@ -155,7 +155,7 @@
   },
   "companhia-das-letras": {
    "name": "Companhia das Letras",
-   "price_list": ""
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-654/publisher-price-list/75514971d829224ee2d4e2d448bb099d414c55c4_planilha-sem-titulo-cia.pdf"
   },
   "conrad": {
    "name": "Conrad",
@@ -517,6 +517,10 @@
    "name": "Panda Books",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-533/publisher-price-list/07d19aee06ea471b8a25cfcbf3d58d0e1f304c47_panda-books-festa-da-usp-2026-mayara-meloxlsx-panda-books-010226.pdf"
   },
+  "papirus": {
+   "name": "Papirus",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-657/publisher-price-list/3b0416835debb6e6a6fa22d83ecd0e5c610ed1a7_lista-de-precos-padrao-28a-festa-do-livro-da-usp-renata-longhi.pdf"
+  },
   "parabola": {
    "name": "Parábola",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-647/publisher-price-list/fef391d9810c34d2af746ab3c1aa74a2cce7346b_listaparabolausp2026-parabola-editorialxlsx-sheet1.pdf"
@@ -604,6 +608,10 @@
   "seja-breve": {
    "name": "Seja Breve",
    "price_list": ""
+  },
+  "senac-sao-paulo": {
+   "name": "Senac São Paulo",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-656/publisher-price-list/5fb51b3cf92c56dc24a9b7cda304c82ba37049d1_lista-festa-livro-usp-atualizada-laura-kleinxlsx-lista-de-precos-padrao-26a-fe.pdf"
   },
   "sesc-sp": {
    "name": "Sesc SP",
@@ -715,5 +723,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 29912
+ "total_livros": 32815
 }
