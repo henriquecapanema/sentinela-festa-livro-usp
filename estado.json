@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-25T18:20-03:00",
+ "checado_em": "2026-11-25T21:20-03:00",
  "editoras": {
   "alameda": {
    "name": "Alameda",
@@ -369,6 +369,10 @@
    "name": "Instituto Tomie Ohtake",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-509/publisher-price-list/99d066ce8008b4699968f466f1e83798be7781fb_lista-de-precos-padrao-28a-festa-do-livro-da-usp-instituto-tomie-ohtake-xlsx-lista-de-precos-padrao-26a-fe-felipe-salles.pdf"
   },
+  "intrinseca": {
+   "name": "Intrínseca",
+   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-658/publisher-price-list/b2ee2a7bacdd27c288dad94c8023c40df3a77a5b_lista-de-precos-padrao-28a-festa-do-livro-da-usp-intrinseca.pdf"
+  },
   "joaquina": {
    "name": "Joaquina",
    "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-525/publisher-price-list/e06bb73e8cc192bf8b1abd891b932c6d6236e0a4_lista-de-precos-padrao-28a-festa-do-livro-da-usp-ed-joaquinaxlsx-lista-de-precos-padrao-26a-fe.pdf"
@@ -463,7 +467,7 @@
   },
   "mundareu-manjuba": {
    "name": "Mundaréu | Manjuba",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-603/publisher-price-list/6990c70df189d928276a74e8b5cebbe727bf6d1d_mundareu-festa-da-usp-2026pdf-rafael-kalebe-1.pdf"
+   "price_list": ""
   },
   "n-1-edicoes": {
    "name": "N-1 edições",
@@ -723,5 +727,5 @@
   }
  },
  "flag": "28-festa-do-livro-da-usp",
- "total_livros": 32815
+ "total_livros": 32884
 }
