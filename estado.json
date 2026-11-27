@@ -1,5 +1,5 @@
 {
- "checado_em": "2026-11-27T15:20-03:00",
+ "checado_em": "2026-11-27T18:20-03:00",
  "editoras": {
   "alameda": {
    "name": "Alameda",
@@ -339,7 +339,7 @@
   },
   "harpercollins-brasil": {
    "name": "HarperCollins Brasil",
-   "price_list": "https://festadolivro.edusp.com.br/storage/event/publishers/publisher-502/publisher-price-list/a495e1660882f6a7b0c4e50815ea6e2d8bfa206c_lista-de-precos-padrao-28a-festa-do-livro-da-uspxlsx-atualizada-1-thais-rodriguesxlsx-planilha1.pdf"
+   "price_list": ""
   },
   "hedra": {
    "name": "Hedra",
