@@ -1,6 +1,6 @@
 # Editoras — 28-festa-do-livro-da-usp
 
-Atualizado em 26/11/2026 21:20 (horário de Brasília). 181 editoras, 174 com catálogo, 32884 livros cadastrados no site.
+Atualizado em 27/11/2026 09:20 (horário de Brasília). 181 editoras, 174 com catálogo, 32884 livros cadastrados no site.
 
 | Editora | Catálogo | Livros cadastrados no site |
 |---|---|---|
