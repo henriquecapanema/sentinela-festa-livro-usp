@@ -1,6 +1,6 @@
 # Editoras — 28-festa-do-livro-da-usp
 
-Atualizado em 27/11/2026 18:20 (horário de Brasília). 181 editoras, 173 com catálogo, 32884 livros cadastrados no site.
+Atualizado em 27/11/2026 21:20 (horário de Brasília). 181 editoras, 173 com catálogo, 32884 livros cadastrados no site.
 
 | Editora | Catálogo | Livros cadastrados no site |
 |---|---|---|
@@ -112,7 +112,7 @@ Atualizado em 27/11/2026 18:20 (horário de Brasília). 181 editoras, 173 com ca
 | Martins Fontes - Selo Martins | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-512/publisher-price-list/3a7d57950f0441d27aacb47d109052edfbdb319a_lista-de-precos-padrao-28a-festa-do-livro-da-usp-2026-alterada-cida-sousaxlsx-lista-de-precos-padrao-28a-fe.pdf) | [678](livros/martins-fontes-selo-martins.csv) |
 | MASP | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-644/publisher-price-list/4d98cc2fe54428b3d3b8bc144051e0f983730734_planilha-usp-preencher-paisagem-distribuidoraxlsx-planilha1.pdf) | [40](livros/masp.csv) |
 | Matrix | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-645/publisher-price-list/d3ac0c59f24f83bd3719ce6b29e063990d4dfa7d_matrix-editora-matrix-editora.pdf) | [337](livros/matrix.csv) |
-| Melhoramentos | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-544/publisher-price-list/6e0b7acb8dbe6b040e643449f9b5ed822b044f6b_melhoramentosxlsx-lista-de-precos-padrao-26a-fe.pdf) | [223](livros/melhoramentos.csv) |
+| Melhoramentos | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-544/publisher-price-list/71eb965ead519fa62cd656cbe68f10d21aa1d967_lista-de-preco-usp26-melhoramentos.pdf) | [223](livros/melhoramentos.csv) |
 | Mil Caramiolas | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-593/publisher-price-list/996160736b0dab6966bf2e0329f6b15ccd7d7802_usp-2026-mil-caramiolas-23-livros-links-completos-jaqueline-leaoxlsx-livros-usp-2026.pdf) | [20](livros/mil-caramiolas.csv) |
 | Miolo Mole | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-545/publisher-price-list/570223e28829a0129bf60db983ccfdbcfc3cbd57_miolo-mole-lista-de-precos-padrao-28a-festa-do-livro-da-usp-luana-vignonxlsx-lista-de-precos-padrao-26a-fe.pdf) | [36](livros/miolo-mole.csv) |
 | Mnema | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-597/publisher-price-list/678b0f0be6dac637acd11aee628818d73799aeae_editoramnema-daniel-campos-de-azevedo.pdf) | [38](livros/mnema.csv) |
