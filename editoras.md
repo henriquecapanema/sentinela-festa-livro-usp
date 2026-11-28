@@ -1,6 +1,6 @@
 # Editoras — 28-festa-do-livro-da-usp
 
-Atualizado em 28/11/2026 09:20 (horário de Brasília). 181 editoras, 173 com catálogo, 32884 livros cadastrados no site.
+Atualizado em 28/11/2026 12:20 (horário de Brasília). 181 editoras, 174 com catálogo, 32884 livros cadastrados no site.
 
 | Editora | Catálogo | Livros cadastrados no site |
 |---|---|---|
@@ -88,7 +88,7 @@ Atualizado em 28/11/2026 09:20 (horário de Brasília). 181 editoras, 173 com ca
 | Global | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-581/publisher-price-list/7ebc5ee447c40c0cb7633705e8f6df25b8068b68_global-editora-lista-de-precos-padrao-28-festa-do-livro-da-usp-ok-global-editora.pdf) | [640](livros/global.csv) |
 | Globo Livros | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-551/publisher-price-list/4ad79caf6a42ad350c04863e97ee436881313640_globo-livros-lista-de-precos-padrao-28a-festa-do-livro-da-usp-excelxlsx-lista-de-precos-padrao-26a-fe.pdf) | [391](livros/globo-livros.csv) |
 | Grua | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-485/publisher-price-list/d11ff1313d55c0b1d5452bdb53845d71b1b09e1b_lista-de-precos-padrao-28a-festa-do-livro-da-usp-grua-livros.pdf) | [102](livros/grua.csv) |
-| HarperCollins Brasil | — | [415](livros/harpercollins-brasil.csv) |
+| HarperCollins Brasil | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-502/publisher-price-list/eef4b7c7c8f35311e4dfda7ddaa15da5d095a52e_harper-planilha1.pdf) | [415](livros/harpercollins-brasil.csv) |
 | Hedra | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-625/publisher-price-list/9494ac7fb67e1326f5d2696c37d48aba03b1c375_catalogo-edlab-usp-departamento-comercial-planilha1.pdf) | [500](livros/hedra.csv) |
 | Hucitec | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-483/publisher-price-list/4397d0f6444bcf3cee696dc0c276b1899d954473_hucitec.pdf) | [366](livros/hucitec.csv) |
 | Hyperion Comics | [PDF](https://festadolivro.edusp.com.br/storage/event/publishers/publisher-613/publisher-price-list/f4b391737e3d11be9db13521696cef328ef49e53_lista-de-precos-padrao-28a-festa-do-livro-da-usp-hyperion-comics.pdf) | [21](livros/hyperion-comics.csv) |
